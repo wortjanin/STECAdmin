@@ -1,0 +1,7 @@
+CREATE OR REPLACE PROCEDURE pr_clear_session
+AS
+--  function is used by TR_STEC_CLEAR_SESSION_BLOD
+BEGIN
+	pr_rollback();
+END;
+/

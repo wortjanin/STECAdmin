@@ -1,0 +1,57 @@
+!SESSION 2011-02-09 10:37:21.109 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -product me.stec.admin.product
+Command-line arguments:  -product me.stec.admin.product -data D:\java\helios\ws2/../runtime-me.stec.admin.product -dev file:D:/java/helios/ws2/.metadata/.plugins/org.eclipse.pde.core/me.stec.admin.product/dev.properties -os win32 -ws win32 -arch x86 -consoleLog
+
+!ENTRY org.eclipse.equinox.app 0 0 2011-02-09 10:37:23.140
+!MESSAGE Product me.stec.admin.product could not be found.
+
+!ENTRY org.eclipse.osgi 2 0 2011-02-09 10:37:23.187
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2011-02-09 10:37:23.187
+!MESSAGE Bundle initial@reference:file:../../helios/ws2/me.stec.admin/ was not resolved.
+!SUBENTRY 2 me.stec.admin 2 0 2011-02-09 10:37:23.187
+!MESSAGE Missing required bundle me.stec.guava_1.0.0.
+
+!ENTRY org.eclipse.osgi 2 0 2011-02-09 10:37:23.187
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2011-02-09 10:37:23.187
+!MESSAGE Bundle me.stec.admin_1.0.0.qualifier [91] was not resolved.
+!SUBENTRY 2 me.stec.admin 2 0 2011-02-09 10:37:23.203
+!MESSAGE Missing required bundle me.stec.guava_1.0.0.
+
+!ENTRY org.eclipse.osgi 2 0 2011-02-09 10:37:23.203
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2011-02-09 10:37:23.203
+!MESSAGE Bundle initial@reference:file:../../helios/ws2/me.stec.admin/ was not resolved.
+!SUBENTRY 2 me.stec.admin 2 0 2011-02-09 10:37:23.203
+!MESSAGE Missing required bundle me.stec.guava_1.0.0.
+
+!ENTRY org.eclipse.osgi 2 0 2011-02-09 10:37:23.218
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2011-02-09 10:37:23.218
+!MESSAGE Bundle me.stec.admin_1.0.0.qualifier [91] was not resolved.
+!SUBENTRY 2 me.stec.admin 2 0 2011-02-09 10:37:23.218
+!MESSAGE Missing required bundle me.stec.guava_1.0.0.
+
+!ENTRY org.eclipse.osgi 4 0 2011-02-09 10:37:23.218
+!MESSAGE Application error
+!STACK 1
+java.lang.RuntimeException: No application id has been found.
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.startDefaultApp(EclipseAppContainer.java:242)
+	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:29)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:619)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:574)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1407)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1383)

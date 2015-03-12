@@ -1,0 +1,63 @@
+--	DECLARE
+--		i_max stec_user.stec_user_id%TYPE;
+--	BEGIN
+--	---------------------------------------------------------------------------
+--		
+--		SELECT MAX(stec_user_id) INTO i_max FROM stec_user;
+--		IF i_max IS NULL THEN i_max := 0; END IF;
+--		pr_autoincrement_add_to('stec_user', i_max + 1, TRUE);
+--	
+--		pr_create_tr_check_bid('stec_user', ' SYS.pkg_stec.fn_my_caller in ( ''.package body '' || fn_stec_schema || ''.PKG_STEC_ACCOUNT'') ' );
+--	
+--	---------------------------------------------------------------------------
+--		
+--		SELECT MAX(stec_user_cat_id) INTO i_max FROM stec_user_cat;
+--		IF i_max IS NULL THEN i_max := 0; END IF;
+--		pr_autoincrement_add_to('stec_user_cat', i_max + 1, TRUE);
+--	
+--	---------------------------------------------------------------------------
+--	
+--		SELECT MAX(login_id) INTO i_max FROM login;
+--		IF i_max IS NULL THEN i_max := 0; END IF;
+--		pr_autoincrement_add_to('login', i_max + 1, TRUE);
+--	
+--		
+--	--	pr_create_tr_check_bid('login', ' fn_my_caller in ( ''.package body '' || sys.fn_stec_schema || ''.PKG_STEC_ACCOUNT'') ' );
+--	--
+--	--	-- passive security
+--	--	EXECUTE IMMEDIATE (
+--	-- 'CREATE OR REPLACE TRIGGER tr_login_bu 
+--	--          BEFORE UPDATE ON login
+--	--          FOR EACH ROW
+--	--          BEGIN
+--	--           IF ( NOT ( :NEW.login LIKE :OLD.login ) )  THEN 
+--	--             RAISE_APPLICATION_ERROR(-20011, ''Do not change login!!!''); 
+--	--           END IF; 
+--	--          END;     
+--	-- ');
+--	-- all of the above is set on login table creation
+--	---------------------------------------------------------------------------
+--	
+--		SELECT MAX(faculty_id) INTO i_max FROM faculty;
+--		IF i_max IS NULL THEN i_max := 0; END IF;
+--		pr_autoincrement_add_to('faculty', i_max + 1, TRUE);
+--	
+--	---------------------------------------------------------------------------
+--	
+--		SELECT MAX(speciality_id) INTO i_max FROM speciality;
+--		IF i_max IS NULL THEN i_max := 0; END IF;
+--		pr_autoincrement_add_to('speciality', i_max + 1, TRUE);
+--	
+--	---------------------------------------------------------------------------
+--	
+--		SELECT MAX(stec_group_id) INTO i_max FROM stec_group;
+--		IF i_max IS NULL THEN i_max := 0; END IF;
+--		pr_autoincrement_add_to('stec_group', i_max + 1, TRUE);
+--	
+--	---------------------------------------------------------------------------
+--	
+--		SELECT MAX(stud_info_id) INTO i_max FROM stud_info;
+--		IF i_max IS NULL THEN i_max := 0; END IF;
+--		pr_autoincrement_add_to('stud_info', i_max + 1, TRUE);
+--	END;
+--	/

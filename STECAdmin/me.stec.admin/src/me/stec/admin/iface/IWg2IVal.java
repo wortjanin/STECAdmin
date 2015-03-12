@@ -1,0 +1,150 @@
+package me.stec.admin.iface;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import me.stec.admin.enumer.EGender;
+import me.stec.admin.logic.DbField;
+import me.stec.admin.logic.user.Student.zzzGenderAttr;
+import me.stec.admin.widget.WgDcrCombo;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Combo;
+import org.eclipse.swt.widgets.Control;
+import org.eclipse.swt.widgets.Text;
+
+public class IWg2IVal {
+	
+	public static class WgIValPair{
+		public WgIValPair(Control control, IVal	iVal){
+			this.control = control;
+			this.iVal = iVal;
+		}
+		public WgIValPair(Control control, IVal	iVal, boolean caseSensitive){
+			this.control		= control;
+			this.iVal			= iVal;
+			this.caseSensitive	= caseSensitive;
+		}
+		public WgIValPair(WgDcrCombo wgDcrCombo, IVal	iVal) {
+			// TODO Auto-generated constructor stub
+			this.control = wgDcrCombo.getControl();
+			this.iVal = iVal;
+		}
+		private Control control;
+		private IVal	iVal;
+		private boolean caseSensitive = true;
+	}
+	
+	public abstract class ShellWg{
+		protected ShellWg(IVal iVal){
+			this.iVal = iVal;
+		}
+		public abstract void clearWg();
+		public abstract void dataFromWg();
+		public abstract void dataToWg();
+
+		protected IVal iVal;
+	}
+	public class ShellText extends ShellWg{
+		private Text text;
+		private boolean caseSensitive;
+		public ShellText(Text text, IVal iVal, boolean caseSensitive) {
+			super(iVal);
+			this.text = text;
+			this.caseSensitive = caseSensitive;
+		}
+		@Override
+		public void clearWg() {
+			text.setText("");
+		}
+		@Override
+		public void dataFromWg() {
+			iVal.setVal((caseSensitive)?text.getText():text.getText().toUpperCase());
+		}
+		@Override
+		public void dataToWg() {
+			text.setText(String.valueOf(iVal.getVal()));
+		}
+	}
+	public class ShellCombo extends ShellWg{
+		private Combo combo;
+		public ShellCombo(Combo combo, IVal iVal) {
+			super(iVal);
+			this.combo = combo;
+		}
+		@Override
+		public void clearWg() {
+			combo.setText("");
+		}
+		@Override
+		public void dataFromWg() {
+			iVal.setVal(combo.getText());
+		}
+		@Override
+		public void dataToWg() {
+			combo.setText(String.valueOf(iVal.getVal()));
+		}
+	}
+
+	public class ShellCheckbox extends ShellWg{
+		private Button checkbox;
+		protected ShellCheckbox(Button checkbox, IVal iVal) {
+			super(iVal);
+			this.checkbox = checkbox;
+		}
+		@Override
+		public void clearWg() {
+			checkbox.setSelection(false);
+		}
+		@Override
+		public void dataFromWg() {
+			iVal.setVal(checkbox.getSelection());
+		}
+		@Override
+		public void dataToWg() {
+			checkbox.setSelection((Boolean)(iVal.getVal()));
+		}
+	}
+	
+	protected List<ShellWg> list = new ArrayList<ShellWg>();
+	
+	public IWg2IVal(WgIValPair[] wgIValPair){
+		for(int i=0; i<wgIValPair.length;i++){
+			if(			wgIValPair[i].control instanceof Text)
+				list.add(new ShellText((Text)wgIValPair[i].control, wgIValPair[i].iVal, wgIValPair[i].caseSensitive));
+			else if(	wgIValPair[i].control instanceof Combo)
+				list.add(new ShellCombo((Combo)wgIValPair[i].control, wgIValPair[i].iVal));
+			else if(	wgIValPair[i].control instanceof Button &&
+						SWT.CHECK == ((Button)wgIValPair[i].control).getStyle())
+				list.add(new ShellCheckbox((Button)wgIValPair[i].control, wgIValPair[i].iVal));
+			else assert 0==1 : "Unrecognized control (you need to realize an appropriate extent of ShellWg)" +
+					" or use an anonymous class to realize the functionality for the unusual control" ;
+		}
+	}
+	
+	/**
+	 * clears associated Widget controls
+	 */
+	public void clearWg(){
+		for(ShellWg shWg: list)
+			shWg.clearWg();
+	}
+	
+	/**
+	 * transports data from the Widget controls to associated IVal objects
+	 */
+	public void dataFromWg(){
+		for(ShellWg shWg: list)
+			shWg.dataFromWg();
+	}
+
+	/**
+	 * transports data to the Widget controls from associated IVal objects
+	 */
+	public void dataToWg(){
+		for(ShellWg shWg: list)
+			shWg.dataToWg();
+	}
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addCategory
+		id="custom_1297255133328"
+		name="me.stec.admin"
+		description=""
+		visible="true"
+		open="true"/>
+	<addComponent
+		id="custom_1297255205484"
+		name="WgDcrCombo"
+		visible="true"
+		class="me.stec.admin.widget.WgDcrCombo"
+		category="custom_1297255133328"/>
+</commands>

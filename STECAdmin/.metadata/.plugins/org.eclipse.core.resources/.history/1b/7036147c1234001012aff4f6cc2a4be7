@@ -1,0 +1,11 @@
+output.. = bin/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               icons/alt_window_16.gif,\
+               icons/alt_window_32.gif,\
+               plugin_customization.ini,\
+               me.stec.admin.product,\
+               lib/ojdbc6.jar
+source.. = src/
+jars.compile.order = .

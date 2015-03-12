@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Admin
+Bundle-SymbolicName: me.stec.admin; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: me.stec.admin.Activator
+Require-Bundle: me.stec.jdbc;bundle-version="1.0.0",
+ org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.google.guava;bundle-version="0.1.1",
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

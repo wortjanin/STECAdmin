@@ -1,0 +1,13 @@
+output.. = bin/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               plugin_customization.ini,\
+               me.stec.admin.product,\
+               icons/,\
+               lib/,\
+               Guava/
+source.. = src/
+jars.compile.order = .,\
+                     Guava/
+source.Guava/ = lib/

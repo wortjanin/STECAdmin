@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="24" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="220" y="220">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="121" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.instantiations.designer.gwt.actionset" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="com.swtdesigner.actionset" itemType="typeToolBarContribution" x="52" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="160" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="75" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="75" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="183" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.pde.ui.productEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.pde.ui.manifestEditor" itemType="typeToolBarContribution" x="39" y="22"/>
+<coolItem id="com.instantiations.designer.core.guiEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1287517453500" focus="true" label="Workspace - Plug-in Development">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
+<part id="41"/>
+<part id="42"/>
+<part id="43"/>
+<part id="44"/>
+<part id="45"/>
+<part id="46"/>
+<part id="47"/>
+<part id="48"/>
+<part id="49"/>
+<part id="50"/>
+<part id="51"/>
+<part id="52"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-06_stec_user.sql" partName="100902_00-06_stec_user.sql" path="D:/java/helios/ws2/me.stec.admin/sql/table/100902_00-06_stec_user.sql" title="100902_00-06_stec_user.sql" tooltip="me.stec.admin/sql/table/100902_00-06_stec_user.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-06_stec_user.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2142" selectionTopPixel="522"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-01_obj_operation_set.sql" partName="100902_00-01_obj_operation_set.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-01_obj_operation_set.sql" title="100902_00-01_obj_operation_set.sql" tooltip="me.stec.admin/sql/table/100902_00-01_obj_operation_set.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-01_obj_operation_set.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="465" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-00_alter_session.sql" partName="100901_00-00_alter_session.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/procedure/100901_00-00_alter_session.sql" title="100901_00-00_alter_session.sql" tooltip="me.stec.admin/sql/procedure/100901_00-00_alter_session.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-00_alter_session.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="564" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-03_block_grant_to_fn_stec_schema.sql" partName="100901_00-03_block_grant_to_fn_stec_schema.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/procedure/100901_00-03_block_grant_to_fn_stec_schema.sql" title="100901_00-03_block_grant_to_fn_stec_schema.sql" tooltip="me.stec.admin/sql/procedure/100901_00-03_block_grant_to_fn_stec_schema.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-03_block_grant_to_fn_stec_schema.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="773" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-03_fn_stec_schema_num.sql" partName="100901_00-03_fn_stec_schema_num.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/procedure/100901_00-03_fn_stec_schema_num.sql" title="100901_00-03_fn_stec_schema_num.sql" tooltip="me.stec.admin/sql/procedure/100901_00-03_fn_stec_schema_num.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-03_fn_stec_schema_num.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="331" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-05_pr_autoincrement_add_to.sql" partName="100901_00-05_pr_autoincrement_add_to.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/procedure/100901_00-05_pr_autoincrement_add_to.sql" title="100901_00-05_pr_autoincrement_add_to.sql" tooltip="me.stec.admin/sql/procedure/100901_00-05_pr_autoincrement_add_to.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-05_pr_autoincrement_add_to.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2625" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-06_pr_autoincrement_remove_from.sql" partName="100901_00-06_pr_autoincrement_remove_from.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/procedure/100901_00-06_pr_autoincrement_remove_from.sql" title="100901_00-06_pr_autoincrement_remove_from.sql" tooltip="me.stec.admin/sql/procedure/100901_00-06_pr_autoincrement_remove_from.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-06_pr_autoincrement_remove_from.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="497" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-07_pr_create_tr_check_bid.sql" partName="100901_00-07_pr_create_tr_check_bid.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/procedure/100901_00-07_pr_create_tr_check_bid.sql" title="100901_00-07_pr_create_tr_check_bid.sql" tooltip="me.stec.admin/sql/procedure/100901_00-07_pr_create_tr_check_bid.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-07_pr_create_tr_check_bid.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="572" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-08_pr_temp_privs_collect.sql" partName="100901_00-08_pr_temp_privs_collect.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/procedure/100901_00-08_pr_temp_privs_collect.sql" title="100901_00-08_pr_temp_privs_collect.sql" tooltip="me.stec.admin/sql/procedure/100901_00-08_pr_temp_privs_collect.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-08_pr_temp_privs_collect.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="213" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-09_pr_create_tr_division_bid.sql" partName="100901_00-09_pr_create_tr_division_bid.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/procedure/100901_00-09_pr_create_tr_division_bid.sql" title="100901_00-09_pr_create_tr_division_bid.sql" tooltip="me.stec.admin/sql/procedure/100901_00-09_pr_create_tr_division_bid.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-09_pr_create_tr_division_bid.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1332" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-00_a_dangerous_object.sql" partName="100902_00-00_a_dangerous_object.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-00_a_dangerous_object.sql" title="100902_00-00_a_dangerous_object.sql" tooltip="me.stec.admin/sql/table/100902_00-00_a_dangerous_object.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-00_a_dangerous_object.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="661" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-03_stec_accessor.sql" partName="100902_00-03_stec_accessor.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-03_stec_accessor.sql" title="100902_00-03_stec_accessor.sql" tooltip="me.stec.admin/sql/table/100902_00-03_stec_accessor.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-03_stec_accessor.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="476" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-03_stec_accessor_type.sql" partName="100902_00-03_stec_accessor_type.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-03_stec_accessor_type.sql" title="100902_00-03_stec_accessor_type.sql" tooltip="me.stec.admin/sql/table/100902_00-03_stec_accessor_type.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-03_stec_accessor_type.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="548" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-03_stec_accessor_type_insert.sql" partName="100902_00-03_stec_accessor_type_insert.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-03_stec_accessor_type_insert.sql" title="100902_00-03_stec_accessor_type_insert.sql" tooltip="me.stec.admin/sql/table/100902_00-03_stec_accessor_type_insert.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-03_stec_accessor_type_insert.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="77" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-04_stec_user_cat.sql" partName="100902_00-04_stec_user_cat.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-04_stec_user_cat.sql" title="100902_00-04_stec_user_cat.sql" tooltip="me.stec.admin/sql/table/100902_00-04_stec_user_cat.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-04_stec_user_cat.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1042" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-05_stec_user_cat_insert.sql" partName="100902_00-05_stec_user_cat_insert.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-05_stec_user_cat_insert.sql" title="100902_00-05_stec_user_cat_insert.sql" tooltip="me.stec.admin/sql/table/100902_00-05_stec_user_cat_insert.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-05_stec_user_cat_insert.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="418" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-09_stec_login.sql" partName="100902_00-09_stec_login.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-09_stec_login.sql" title="100902_00-09_stec_login.sql" tooltip="me.stec.admin/sql/table/100902_00-09_stec_login.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-09_stec_login.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2512" selectionTopPixel="1049"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-12_fn_stec_user_id.sql" partName="100901_00-12_fn_stec_user_id.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/procedure/100901_00-12_fn_stec_user_id.sql" title="100901_00-12_fn_stec_user_id.sql" tooltip="me.stec.admin/sql/procedure/100901_00-12_fn_stec_user_id.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-12_fn_stec_user_id.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="343" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-12_fn_stec_user_acc_id.sql" partName="100901_00-12_fn_stec_user_acc_id.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/procedure/100901_00-12_fn_stec_user_acc_id.sql" title="100901_00-12_fn_stec_user_acc_id.sql" tooltip="me.stec.admin/sql/procedure/100901_00-12_fn_stec_user_acc_id.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-12_fn_stec_user_acc_id.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-08_stec_role_user.sql" partName="100902_00-08_stec_role_user.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-08_stec_role_user.sql" title="100902_00-08_stec_role_user.sql" tooltip="me.stec.admin/sql/table/100902_00-08_stec_role_user.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-08_stec_role_user.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7916" selectionTopPixel="3480"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-07_stec_role.sql" partName="100902_00-07_stec_role.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-07_stec_role.sql" title="100902_00-07_stec_role.sql" tooltip="me.stec.admin/sql/table/100902_00-07_stec_role.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-07_stec_role.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="754" selectionTopPixel="255"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-02_obj_operation.sql" partName="100902_00-02_obj_operation.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-02_obj_operation.sql" title="100902_00-02_obj_operation.sql" tooltip="me.stec.admin/sql/table/100902_00-02_obj_operation.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-02_obj_operation.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5446" selectionTopPixel="3191"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-10_division_type.sql" partName="100902_00-10_division_type.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-10_division_type.sql" title="100902_00-10_division_type.sql" tooltip="me.stec.admin/sql/table/100902_00-10_division_type.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-10_division_type.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1510" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-11_division.sql" partName="100902_00-11_division.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-11_division.sql" title="100902_00-11_division.sql" tooltip="me.stec.admin/sql/table/100902_00-11_division.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-11_division.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="620" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-11_pkg_stec_access.sql" partName="100902_00-11_pkg_stec_access.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/package/100902_00-11_pkg_stec_access.sql" title="100902_00-11_pkg_stec_access.sql" tooltip="me.stec.admin/sql/package/100902_00-11_pkg_stec_access.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/package/100902_00-11_pkg_stec_access.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5491" selectionTopPixel="3315"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-34_vw_stec_user.sql" partName="100902_00-34_vw_stec_user.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-34_vw_stec_user.sql" title="100902_00-34_vw_stec_user.sql" tooltip="me.stec.admin/sql/table/100902_00-34_vw_stec_user.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-34_vw_stec_user.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="87" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-19_vw_division_access.sql" partName="100902_00-19_vw_division_access.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-19_vw_division_access.sql" title="100902_00-19_vw_division_access.sql" tooltip="me.stec.admin/sql/table/100902_00-19_vw_division_access.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-19_vw_division_access.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1538" selectionTopPixel="386"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-07_vw_stec_role.sql" partName="100902_00-07_vw_stec_role.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-07_vw_stec_role.sql" title="100902_00-07_vw_stec_role.sql" tooltip="me.stec.admin/sql/table/100902_00-07_vw_stec_role.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-07_vw_stec_role.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="472" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-31_temp_privs.sql" partName="100902_00-31_temp_privs.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-31_temp_privs.sql" title="100902_00-31_temp_privs.sql" tooltip="me.stec.admin/sql/table/100902_00-31_temp_privs.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-31_temp_privs.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="377" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-19_division_access.sql" partName="100902_00-19_division_access.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-19_division_access.sql" title="100902_00-19_division_access.sql" tooltip="me.stec.admin/sql/table/100902_00-19_division_access.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-19_division_access.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2277" selectionTopPixel="6200"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-10_pkg_stec_account.sql" partName="100902_00-10_pkg_stec_account.sql" path="D:/java/helios/ws10/ws2/me.stec.admin/sql/package/100902_00-10_pkg_stec_account.sql" title="100902_00-10_pkg_stec_account.sql" tooltip="me.stec.admin/sql/package/100902_00-10_pkg_stec_account.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/package/100902_00-10_pkg_stec_account.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="23586" selectionTopPixel="10543"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-00_a_transaction.sql" partName="100902_00-00_a_transaction.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-00_a_transaction.sql" title="100902_00-00_a_transaction.sql" tooltip="me.stec.admin/sql/table/100902_00-00_a_transaction.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-00_a_transaction.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2439" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100901_00-05_pr_set_startval_for_seq.sql" partName="100901_00-05_pr_set_startval_for_seq.sql" path="D:/java/helios/ws10/ws2/me.stec.admin/sql/procedure/100901_00-05_pr_set_startval_for_seq.sql" title="100901_00-05_pr_set_startval_for_seq.sql" tooltip="me.stec.admin/sql/procedure/100901_00-05_pr_set_startval_for_seq.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/procedure/100901_00-05_pr_set_startval_for_seq.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="51" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-34_vw_stec_user.sql" partName="100902_00-34_vw_stec_user.sql" path="D:/Documents and Settings/chernoivanov/java/helios/ws2/me.stec.admin/sql/table/100902_00-34_vw_stec_user.sql" title="100902_00-34_vw_stec_user.sql" tooltip="me.stec.admin/sql/table/100902_00-34_vw_stec_user.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Oracle_11:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-34_vw_stec_user.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4598" selectionTopPixel="1406"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AItem.java" partName="AItem.java" path="D:/java/helios/ws10/ws2/me.stec.admin/src/me/stec/admin/logic/AItem.java" title="AItem.java" tooltip="me.stec.admin/src/me/stec/admin/logic/AItem.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/logic/AItem.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.instantiations.designer.core.guiEditor" name="InteractiveSplashHandler.java" partName="InteractiveSplashHandler.java" path="D:/java/helios/ws2/me.stec.admin/src/me/stec/admin/splashHandlers/InteractiveSplashHandler.java" title="InteractiveSplashHandler.java" tooltip="me.stec.admin/src/me/stec/admin/splashHandlers/InteractiveSplashHandler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/splashHandlers/InteractiveSplashHandler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="867" selectionTopPixel="102"/>
+</editor>
+<editor id="com.instantiations.designer.core.guiEditor" name="AVwList.java" partName="AVwList.java" path="D:/java/helios/ws10/ws2/me.stec.admin/src/me/stec/admin/view/AVwList.java" title="AVwList.java" tooltip="me.stec.admin/src/me/stec/admin/view/AVwList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/view/AVwList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2260" selectionTopPixel="8772"/>
+</editor>
+<editor id="com.instantiations.designer.core.guiEditor" name="WgItemStudent.java" partName="WgItemStudent.java" path="D:/java/helios/ws2/me.stec.admin/src/me/stec/admin/widget/item/WgItemStudent.java" title="WgItemStudent.java" tooltip="me.stec.admin/src/me/stec/admin/widget/item/WgItemStudent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/widget/item/WgItemStudent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4582" selectionTopPixel="1292"/>
+</editor>
+<editor id="org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor" name="100902_00-03_stec_accessor_type_insert.sql" partName="100902_00-03_stec_accessor_type_insert.sql" path="D:/java/helios/ws10/ws2/me.stec.admin/sql/table/100902_00-03_stec_accessor_type_insert.sql" title="100902_00-03_stec_accessor_type_insert.sql" tooltip="me.stec.admin/sql/table/100902_00-03_stec_accessor_type_insert.sql" workbook="DefaultEditorWorkbook">
+<input connInfoName="Undefined:::" editorInputType="SQLScrapbookEditorInput" factoryID="org.eclipse.datatools.sqltools.internal.sqlscrapbook.editor.SQLScrapbookEditorInputFactory" path="/me.stec.admin/sql/table/100902_00-03_stec_accessor_type_insert.sql"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.instantiations.designer.core.guiEditor" name="WgDcrDateCombo.java" partName="WgDcrDateCombo.java" path="D:/java/helios/ws10/ws2/me.stec.admin/src/me/stec/admin/widget/WgDcrDateCombo.java" title="WgDcrDateCombo.java" tooltip="me.stec.admin/src/me/stec/admin/widget/WgDcrDateCombo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/widget/WgDcrDateCombo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1759" selectionTopPixel="867"/>
+</editor>
+<editor id="org.eclipse.pde.ui.productEditor" name="me.stec.admin.product" partName="me.stec.admin.product" path="D:/java/helios/ws2/me.stec.admin/me.stec.admin.product" title="me.stec.admin.product" tooltip="me.stec.admin/me.stec.admin.product" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/me.stec.admin.product"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Privs.java" partName="Privs.java" path="D:/java/helios/ws2/me.stec.admin/src/me/stec/admin/db/Privs.java" title="Privs.java" tooltip="me.stec.admin/src/me/stec/admin/db/Privs.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/db/Privs.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1090" selectionTopPixel="306"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Application.java" partName="Application.java" path="D:/java/helios/ws2/me.stec.admin/src/me/stec/admin/Application.java" title="Application.java" tooltip="me.stec.admin/src/me/stec/admin/Application.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/Application.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="97" selectionOffset="584" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.pde.ui.manifestEditor" name="MANIFEST.MF" partName="me.stec.admin" path="D:/java/helios/ws2/me.stec.admin/META-INF/MANIFEST.MF" title="me.stec.admin" tooltip="me.stec.admin/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/META-INF/MANIFEST.MF"/>
+</editor>
+<editor id="org.eclipse.pde.ui.manifestEditor" name="MANIFEST.MF" partName="me.stec.guava" path="D:/java/helios/ws2/me.stec.guava/META-INF/MANIFEST.MF" title="me.stec.guava" tooltip="me.stec.guava/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.guava/META-INF/MANIFEST.MF"/>
+</editor>
+<editor id="org.eclipse.pde.ui.manifestEditor" name="MANIFEST.MF" partName="me.stec.jdbc" path="D:/java/helios/ws2/me.stec.jdbc/META-INF/MANIFEST.MF" title="me.stec.jdbc" tooltip="me.stec.jdbc/META-INF/MANIFEST.MF" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.jdbc/META-INF/MANIFEST.MF"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResourceManager.java" partName="ResourceManager.java" path="D:/java/helios/ws2/me.stec.admin/src/com/swtdesigner/ResourceManager.java" title="ResourceManager.java" tooltip="me.stec.admin/src/com/swtdesigner/ResourceManager.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/com/swtdesigner/ResourceManager.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="347" selectionTopPixel="0"/>
+</editor>
+<editor id="com.instantiations.designer.core.guiEditor" name="Conn.java" partName="Conn.java" path="D:/java/helios/ws2/me.stec.admin/src/me/stec/admin/db/Conn.java" title="Conn.java" tooltip="me.stec.admin/src/me/stec/admin/db/Conn.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/db/Conn.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="139" selectionTopPixel="0"/>
+</editor>
+<editor id="com.instantiations.designer.core.guiEditor" name="DlgConn.java" partName="DlgConn.java" path="D:/java/helios/ws2/me.stec.admin/src/me/stec/admin/db/DlgConn.java" title="DlgConn.java" tooltip="me.stec.admin/src/me/stec/admin/db/DlgConn.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/db/DlgConn.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.instantiations.designer.core.guiEditor" name="WgFilterStudent.java" partName="WgFilterStudent.java" path="D:/java/helios/ws2/me.stec.admin/src/me/stec/admin/widget/filter/WgFilterStudent.java" title="WgFilterStudent.java" tooltip="me.stec.admin/src/me/stec/admin/widget/filter/WgFilterStudent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/widget/filter/WgFilterStudent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3262" selectionTopPixel="1067"/>
+</editor>
+<editor id="com.instantiations.designer.core.guiEditor" name="VwListStudent.java" partName="VwListStudent.java" path="D:/java/helios/ws2/me.stec.admin/src/me/stec/admin/view/VwListStudent.java" title="VwListStudent.java" tooltip="me.stec.admin/src/me/stec/admin/view/VwListStudent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/view/VwListStudent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1050" selectionTopPixel="374"/>
+</editor>
+<editor activePart="true" focus="true" id="com.instantiations.designer.core.guiEditor" name="IWg2IVal.java" partName="IWg2IVal.java" path="D:/java/helios/ws2/me.stec.admin/src/me/stec/admin/iface/IWg2IVal.java" title="IWg2IVal.java" tooltip="me.stec.admin/src/me/stec/admin/iface/IWg2IVal.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/iface/IWg2IVal.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3283" selectionTopPixel="816"/>
+</editor>
+<editor id="com.instantiations.designer.core.guiEditor" name="WgDcrCombo.java" partName="WgDcrCombo.java" path="D:/java/helios/ws2/me.stec.admin/src/me/stec/admin/widget/WgDcrCombo.java" title="WgDcrCombo.java" tooltip="me.stec.admin/src/me/stec/admin/widget/WgDcrCombo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/me.stec.admin/src/me/stec/admin/widget/WgDcrCombo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1898" selectionTopPixel="1802"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.pde.ui.DependenciesView" partName="Plug-in Dependencies">
+<viewState inputPluginId="me.stec.admin"/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (100 of 311 items)"/>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1287517453500">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="300" column3="150" column4="150" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="254" org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.priorityField="20" org.eclipse.ui.ide.resourceField="79"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.pde.ui.PluginsView" partName="Plug-ins"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.instantiations.designer.core.guiEditor" activePerspective="org.eclipse.pde.ui.PDEPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.pde.internal.ui.PDEPerspective" id="org.eclipse.pde.ui.PDEPerspective" label="Plug-in Development"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
+<alwaysOnActionSet id="com.swtdesigner.actionset"/>
+<alwaysOnActionSet id="com.instantiations.designer.gwt.actionset"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.jdt.ui.PackagesView"/>
+<show_view_action id="org.eclipse.pde.ui.PluginsView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<new_wizard_action id="org.eclipse.pde.ds.ui.wizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProductConfigurationWizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProfileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.pde.ui.PluginsView"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.pde.ui.DependenciesView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="topLeft">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.pde.ui.PluginsView" label="Plug-ins"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="topLeft">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2600473" ratioLeft="330" ratioRight="939" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6808989" ratioLeft="606" ratioRight="284" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.pde.ui.DependenciesView" label="Plug-in Dependencies"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.swtdesigner.actionset"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.jdt.debug.ui.DisplayView"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.wst.xml.ui.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.wst.server.ui.ServersView" removed="true"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7491601" ratioLeft="669" ratioRight="224" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
+<page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44992527" ratioLeft="301" ratioRight="368" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" path="/me.stec.admin/src/me/stec/admin/db/Conn.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" path="/me.stec.admin/me.stec.admin.product"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" path="/me.stec.admin/META-INF/MANIFEST.MF"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" path="/me.stec.admin/src/me/stec/admin/splashHandlers/InteractiveSplashHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" path="/me.stec.admin/src/me/stec/admin/db/DlgConn.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.productEditor" path="/me.stec.admin/me.stec.admin.product"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" path="/me.stec.admin/src/me/stec/admin/splashHandlers/InteractiveSplashHandler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" path="/me.stec.admin/src/me/stec/admin/widget/item/WgItemStudent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/me.stec.admin/sql/sys/100831_00-06_tr_stec_alter_user_aaod.sql"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" path="/me.stec.admin/src/me/stec/admin/widget/WgDcrCombo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" path="/me.stec.admin/src/me/stec/admin/widget/filter/WgFilterStudent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" path="/me.stec.admin/src/me/stec/admin/view/VwListStudent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" path="/me.stec.admin/src/me/stec/admin/iface/IWg2IVal.java"/>
+</editors>
+<item historyLabel="InteractiveSplashHandler.java" index="3">
+<position info="not_deleted" x="1731" y="0"/>
+</item>
+<item historyLabel="me.stec.admin" index="2"/>
+<item historyLabel="me.stec.admin.product" index="1"/>
+<item historyLabel="DlgConn.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Conn.java" index="0">
+<position info="not_deleted" x="139" y="0"/>
+</item>
+<item historyLabel="me.stec.admin.product" index="5"/>
+<item historyLabel="InteractiveSplashHandler.java" index="6">
+<position info="not_deleted" x="1731" y="0"/>
+</item>
+<item historyLabel="WgItemStudent.java" index="7">
+<position info="not_deleted" x="2668" y="0"/>
+</item>
+<item historyLabel="InteractiveSplashHandler.java" index="6">
+<position info="not_deleted" x="10043" y="0"/>
+</item>
+<item historyLabel="me.stec.admin.product" index="5"/>
+<item historyLabel="InteractiveSplashHandler.java" index="6">
+<position info="not_deleted" x="867" y="0"/>
+</item>
+<item historyLabel="me.stec.admin.product" index="5"/>
+<item historyLabel="100831_00-06_tr_stec_alter_user_aaod.sql" index="8">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="me.stec.admin.product" index="5"/>
+<item historyLabel="WgItemStudent.java" index="7">
+<position info="not_deleted" x="2668" y="0"/>
+</item>
+<item historyLabel="WgItemStudent.java" index="7">
+<position info="not_deleted" x="4722" y="0"/>
+</item>
+<item historyLabel="WgDcrCombo.java" index="9">
+<position info="not_deleted" x="1069" y="0"/>
+</item>
+<item historyLabel="WgItemStudent.java" index="7">
+<position info="not_deleted" x="4722" y="0"/>
+</item>
+<item historyLabel="WgFilterStudent.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WgFilterStudent.java" index="10">
+<position info="not_deleted" x="3199" y="0"/>
+</item>
+<item historyLabel="WgFilterStudent.java" index="10">
+<position info="not_deleted" x="8853" y="0"/>
+</item>
+<item historyLabel="VwListStudent.java" index="11">
+<position info="not_deleted" x="1308" y="0"/>
+</item>
+<item historyLabel="IWg2IVal.java" index="12">
+<position info="not_deleted" x="899" y="0"/>
+</item>
+<item historyLabel="VwListStudent.java" index="11">
+<position info="not_deleted" x="1296" y="0"/>
+</item>
+<item historyLabel="IWg2IVal.java" index="12">
+<position info="not_deleted" x="899" y="0"/>
+</item>
+<item historyLabel="VwListStudent.java" index="11">
+<position info="not_deleted" x="1296" y="0"/>
+</item>
+<item historyLabel="WgFilterStudent.java" index="10">
+<position info="not_deleted" x="3173" y="0"/>
+</item>
+<item historyLabel="WgItemStudent.java" index="7">
+<position info="not_deleted" x="4796" y="0"/>
+</item>
+<item historyLabel="VwListStudent.java" index="11">
+<position info="not_deleted" x="1296" y="0"/>
+</item>
+<item historyLabel="WgFilterStudent.java" index="10">
+<position info="not_deleted" x="3262" y="0"/>
+</item>
+<item historyLabel="WgDcrCombo.java" index="9">
+<position info="not_deleted" x="1527" y="7"/>
+</item>
+<item historyLabel="WgDcrCombo.java" index="9">
+<position info="not_deleted" x="1651" y="0"/>
+</item>
+<item historyLabel="WgDcrCombo.java" index="9">
+<position info="not_deleted" x="1768" y="0"/>
+</item>
+<item historyLabel="WgDcrCombo.java" index="9">
+<position info="not_deleted" x="1895" y="17"/>
+</item>
+<item historyLabel="WgDcrCombo.java" index="9">
+<position info="not_deleted" x="1898" y="0"/>
+</item>
+<item historyLabel="IWg2IVal.java" index="12">
+<position info="not_deleted" x="899" y="0"/>
+</item>
+<item historyLabel="VwListStudent.java" index="11">
+<position info="not_deleted" x="1365" y="0"/>
+</item>
+<item historyLabel="IWg2IVal.java" index="12">
+<position info="not_deleted" x="765" y="0"/>
+</item>
+<item historyLabel="VwListStudent.java" index="11">
+<position info="not_deleted" x="2355" y="0"/>
+</item>
+<item historyLabel="IWg2IVal.java" index="12">
+<position info="not_deleted" x="3778" y="10"/>
+</item>
+<item historyLabel="WgDcrCombo.java" index="9">
+<position info="not_deleted" x="1898" y="0"/>
+</item>
+<item historyLabel="IWg2IVal.java" index="12">
+<position info="not_deleted" x="3778" y="10"/>
+</item>
+<item historyLabel="VwListStudent.java" index="11">
+<position info="not_deleted" x="1049" y="0"/>
+</item>
+<item historyLabel="IWg2IVal.java" index="12">
+<position info="not_deleted" x="3135" y="0"/>
+</item>
+<item historyLabel="WgItemStudent.java" index="7">
+<position info="not_deleted" x="4796" y="0"/>
+</item>
+<item historyLabel="WgItemStudent.java" index="7">
+<position info="not_deleted" x="4582" y="0"/>
+</item>
+<item historyLabel="VwListStudent.java" index="11">
+<position info="not_deleted" x="1366" y="0"/>
+</item>
+<item historyLabel="IWg2IVal.java" index="12">
+<position info="not_deleted" x="1729" y="0"/>
+</item>
+<item historyLabel="VwListStudent.java" index="11">
+<position info="not_deleted" x="1050" y="0"/>
+</item>
+<item active="true" historyLabel="IWg2IVal.java" index="12">
+<position info="not_deleted" x="2771" y="8"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" name="WgDcrCombo.java" tooltip="me.stec.admin/src/me/stec/admin/widget/WgDcrCombo.java">
+<persistable path="/me.stec.admin/src/me/stec/admin/widget/WgDcrCombo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" name="IWg2IVal.java" tooltip="me.stec.admin/src/me/stec/admin/iface/IWg2IVal.java">
+<persistable path="/me.stec.admin/src/me/stec/admin/iface/IWg2IVal.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" name="VwListStudent.java" tooltip="me.stec.admin/src/me/stec/admin/view/VwListStudent.java">
+<persistable path="/me.stec.admin/src/me/stec/admin/view/VwListStudent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" name="WgFilterStudent.java" tooltip="me.stec.admin/src/me/stec/admin/widget/filter/WgFilterStudent.java">
+<persistable path="/me.stec.admin/src/me/stec/admin/widget/filter/WgFilterStudent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="100831_00-06_tr_stec_alter_user_aaod.sql" tooltip="me.stec.admin/sql/sys/100831_00-06_tr_stec_alter_user_aaod.sql">
+<persistable path="/me.stec.admin/sql/sys/100831_00-06_tr_stec_alter_user_aaod.sql"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" name="DlgConn.java" tooltip="me.stec.admin/src/me/stec/admin/db/DlgConn.java">
+<persistable path="/me.stec.admin/src/me/stec/admin/db/DlgConn.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="100902_00-00_a_transaction.sql" tooltip="me.stec.admin/sql/table/100902_00-00_a_transaction.sql">
+<persistable path="/me.stec.admin/sql/table/100902_00-00_a_transaction.sql"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="100902_00-15_div_group_univer.sql" tooltip="me.stec.admin/sql/table/100902_00-15_div_group_univer.sql">
+<persistable path="/me.stec.admin/sql/table/100902_00-15_div_group_univer.sql"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemInPlaceEditor" name="splash.bmp" tooltip="me.stec.admin/splash.bmp">
+<persistable path="/me.stec.admin/splash.bmp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.instantiations.designer.core.guiEditor" name="Conn.java" tooltip="me.stec.admin/src/me/stec/admin/db/Conn.java">
+<persistable path="/me.stec.admin/src/me/stec/admin/db/Conn.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ResourceManager.java" tooltip="me.stec.admin/src/com/swtdesigner/ResourceManager.java">
+<persistable path="/me.stec.admin/src/com/swtdesigner/ResourceManager.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="MANIFEST.MF" tooltip="me.stec.jdbc/META-INF/MANIFEST.MF">
+<persistable path="/me.stec.jdbc/META-INF/MANIFEST.MF"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="MANIFEST.MF" tooltip="me.stec.guava/META-INF/MANIFEST.MF">
+<persistable path="/me.stec.guava/META-INF/MANIFEST.MF"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.pde.ui.manifestEditor" name="MANIFEST.MF" tooltip="me.stec.admin/META-INF/MANIFEST.MF">
+<persistable path="/me.stec.admin/META-INF/MANIFEST.MF"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.internal.JarEntryEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="MANIFEST.MF" tooltip="me.stec.admin/lib/guava-r07/guava-r07.jar/META-INF/MANIFEST.MF">
+<persistable element="=me.stec.admin/lib\/guava-r07\/guava-r07.jar" path="META-INF/MANIFEST.MF"/>
+</file>
+</mruList>
+</workbench>

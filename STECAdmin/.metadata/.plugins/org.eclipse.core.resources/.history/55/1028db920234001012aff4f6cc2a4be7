@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="СТЭК Администратор" id="me.stec.admin.product" application="me.stec.admin.application" version="1.0.0.qualifier" useFeatures="false" includeLaunchers="true">
+
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="icons/alt_window_16.gif" i32="icons/alt_window_32.gif"/>
+
+   <splash
+      location="me.stec.admin"
+      handlerType="interactive" />
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
+   <license>
+        <text>
+   Лицензия
+         </text>
+   </license>
+
+   <plugins>
+      <plugin id="com.google.guava" fragment=""/>
+      <plugin id="com.ibm.icu" fragment=""/>
+      <plugin id="javax.servlet"/>
+      <plugin id="javax.transaction"/>
+      <plugin id="me.stec.admin"/>
+      <plugin id="me.stec.jdbc"/>
+      <plugin id="org.eclipse.core.commands" fragment=""/>
+      <plugin id="org.eclipse.core.contenttype" fragment=""/>
+      <plugin id="org.eclipse.core.databinding" fragment=""/>
+      <plugin id="org.eclipse.core.databinding.observable" fragment=""/>
+      <plugin id="org.eclipse.core.databinding.property" fragment=""/>
+      <plugin id="org.eclipse.core.expressions" fragment=""/>
+      <plugin id="org.eclipse.core.jobs" fragment=""/>
+      <plugin id="org.eclipse.core.runtime" fragment=""/>
+      <plugin id="org.eclipse.core.runtime.compatibility.auth"/>
+      <plugin id="org.eclipse.core.runtime.compatibility.registry" fragment="true"/>
+      <plugin id="org.eclipse.equinox.app" fragment=""/>
+      <plugin id="org.eclipse.equinox.common" fragment=""/>
+      <plugin id="org.eclipse.equinox.preferences" fragment=""/>
+      <plugin id="org.eclipse.equinox.registry" fragment=""/>
+      <plugin id="org.eclipse.equinox.servletbridge.extensionbundle"/>
+      <plugin id="org.eclipse.equinox.transforms.hook"/>
+      <plugin id="org.eclipse.equinox.weaving.hook"/>
+      <plugin id="org.eclipse.help" fragment=""/>
+      <plugin id="org.eclipse.jface" fragment=""/>
+      <plugin id="org.eclipse.jface.databinding" fragment=""/>
+      <plugin id="org.eclipse.osgi" fragment=""/>
+      <plugin id="org.eclipse.osgi.services"/>
+      <plugin id="org.eclipse.swt" fragment=""/>
+      <plugin id="org.eclipse.swt.win32.win32.x86" fragment="true"/>
+      <plugin id="org.eclipse.ui" fragment=""/>
+      <plugin id="org.eclipse.ui.workbench" fragment=""/>
+   </plugins>
+
+
+</product>

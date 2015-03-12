@@ -1,0 +1,114 @@
+CALL pr_create_if_not_exists(
+'CREATE TABLE				stec_role    
+ (																	' ||
+'	stec_role_id			INT	        		NOT NULL,			' ||
+'	name					VARCHAR2(64 CHAR)	NOT NULL,			' ||
+'	stec_accessor_id		INT	        		NOT NULL,			' ||
+'	master_role_id			INT	        		DEFAULT NULL,		' ||
+'	CONSTRAINT uq_stec_role_name UNIQUE (name),						' ||
+'	CONSTRAINT fk_stec_role_accessor_id
+	FOREIGN KEY (stec_accessor_id) REFERENCES stec_accessor (stec_accessor_id),	' ||
+'	CONSTRAINT fk_stec_role_master_id
+	FOREIGN KEY (master_role_id) REFERENCES stec_role (stec_role_id),	' ||
+'	CONSTRAINT pk_stec_role_id     
+	PRIMARY KEY ( stec_role_id ) 
+	ENABLE                     
+ )											' 
+);
+CALL pr_autoincrement_add_to('stec_role');
+
+-- CALL pr_create_tr_check_bid('stec_role', ' SYS.pkg_stec.fn_my_caller in ( ''<package body '' || fn_stec_schema || ''.PKG_STEC_ACCOUNT>'') ' );
+-- create trigger bid and add creation of accessor record in the accessor table
+
+CREATE OR REPLACE TRIGGER tr_stec_role_bi 
+BEFORE INSERT ON stec_role
+FOR EACH ROW
+DECLARE
+	m_acc_id stec_user.stec_accessor_id%TYPE := pkg_stec_account.fn_stec_user_acc_id;
+BEGIN
+	IF 'SYS'<>USER THEN
+		SELECT SRA.stec_role_id INTO :NEW.master_role_id 
+								FROM stec_role_accessor SRA
+								WHERE	m_acc_id		= SRA.stec_accessor_id; 
+	END IF;
+	INSERT 	INTO	stec_accessor(stec_accessor_id, stec_accessor_type) 
+			VALUES				 (NULL,				'R');
+	SELECT sq_stec_accessor_i.CURRVAL INTO :NEW.stec_accessor_id FROM DUAL; 
+END;
+/
+--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CREATE OR REPLACE TRIGGER tr_stec_role_ai 
+AFTER INSERT ON stec_role
+FOR EACH ROW
+BEGIN
+	pkg_stec_account.pr_ora_role_create('RL' || fn_stec_schema_num || '_' || :NEW.stec_role_id);
+END;
+/
+--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+--	SELECT COUNT(*) FROM DUAL WHERE 
+--	7566 IN (
+--	select  
+--	--  ename || '(' || deptno || ')'  ename, 
+--	  empno
+--	   FROM SCOTT.emp 
+--	   start with empno =7566
+--	   --is NULL
+--	   connect by prior  
+--	   mgr = empno
+--	   -- empno = mgr
+--	);
+
+CREATE OR REPLACE TRIGGER tr_stec_role_bu 
+BEFORE UPDATE ON stec_role
+FOR EACH ROW
+DECLARE
+	m_acc_id 	stec_user.stec_accessor_id%TYPE := pkg_stec_account.fn_stec_user_acc_id;
+	m_rl_id		stec_role.stec_role_id%TYPE;	
+	m_cnt		INT :=0;
+BEGIN
+	IF ('SYS'<>USER)THEN
+		SELECT SRA.stec_role_id INTO m_rl_id FROM stec_role_accessor SRA
+								WHERE m_acc_id = SRA.stec_accessor_id;
+		SELECT COUNT(*) INTO m_cnt FROM	DUAL
+						WHERE :OLD.master_role_id IN (
+							SELECT  SR.stec_role_id	
+								FROM stec_role SR
+								START WITH SR.stec_role_id = m_rl_id
+								CONNECT BY PRIOR SR.master_role_id = SR.stec_role_id
+							);
+
+		IF m_cnt < 1 THEN
+			RAISE_APPLICATION_ERROR(-20101, 'You have no rights to update this record');
+		END IF;
+	END IF;
+END;
+/
+
+
+CREATE OR REPLACE TRIGGER tr_stec_role_bd 
+BEFORE DELETE ON stec_role
+FOR EACH ROW
+DECLARE
+	m_acc_id 	stec_user.stec_accessor_id%TYPE := pkg_stec_account.fn_stec_user_acc_id;
+	m_rl_id		stec_role.stec_role_id%TYPE;		
+BEGIN
+	IF ('SYS'<>USER)THEN
+		SELECT SRA.stec_role_id INTO m_rl_id FROM stec_role_accessor SRA
+								WHERE m_acc_id = SRA.stec_accessor_id;
+		SELECT COUNT(*) INTO m_cnt FROM	DUAL
+						WHERE :OLD.master_role_id IN (
+							SELECT  SR.stec_role_id	
+								FROM stec_role SR
+								START WITH SR.stec_role_id = m_rl_id
+								CONNECT BY PRIOR SR.master_role_id = SR.stec_role_id
+							);
+		IF m_cnt < 1 THEN
+			RAISE_APPLICATION_ERROR(-20101, 'You have no rights to update this record');
+		END IF;
+	END IF;
+
+	DELETE 	FROM stec_accessor SA 
+			WHERE SA.stec_accessor_id = :OLD.stec_accessor_id;
+	pkg_stec_account.pr_ora_role_drop('RL' || fn_stec_schema_num || '_' || :OLD.stec_role_id);
+END;
+/

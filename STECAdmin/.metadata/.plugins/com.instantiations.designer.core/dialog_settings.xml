@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.instantiations.designer.core.model.property.editor.string.StringPropertyDialog">
+		<item value="308" key="height"/>
+		<item value="438" key="width"/>
+		<item value="343" key="y"/>
+		<item value="421" key="x"/>
+	</section>
+	<section name="com.instantiations.designer.core.editor.palette.dialogs.CategoryAddDialog">
+		<item value="368" key="height"/>
+		<item value="451" key="width"/>
+		<item value="313" key="y"/>
+		<item value="414" key="x"/>
+	</section>
+	<section name="com.instantiations.designer.core.model.util.ExposeComponentSupport$ExposeDialog">
+		<item value="244" key="height"/>
+		<item value="438" key="width"/>
+		<item value="375" key="y"/>
+		<item value="421" key="x"/>
+	</section>
+	<section name="com.instantiations.designer.core.editor.palette.dialogs.ComponentAddDialog">
+		<item value="349" key="height"/>
+		<item value="533" key="width"/>
+		<item value="322" key="y"/>
+		<item value="373" key="x"/>
+	</section>
+</section>

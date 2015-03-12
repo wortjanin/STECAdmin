@@ -1,0 +1,115 @@
+--		
+-- #	PackageName me.stec.admin.logic.user
+--					dbType										Caption,				Name(1),			jType,	dbLoadInList,	 		dbReadOnly,		    dbSaveOnly,     dbIsCombo,		dbIsNotNull
+--
+--					SchemeName									ClassSummary,			ClassName(1),		,       ,						Scheme.ReadOnly
+
+CALL pr_create_if_not_exists(
+'CREATE TABLE		stec_login     
+ (														' ||  -- #  Логин пользователя,		Login,				,	    ,                       true
+'	stec_login_id	INT        			NOT NULL,		' ||  -- #  ИН логина,				Id
+'	stec_user_id	INT	        		NOT NULL,		' ||  -- #  ИН Пользователя,		IdStecUser
+'	login			VARCHAR2(30 BYTE)	NOT NULL,		' ||  -- #	Логин,					Login
+'	pw				VARCHAR2(30 BYTE)	DEFAULT NULL,	' ||  -- #
+'	CONSTRAINT fk_stec_login_user
+	FOREIGN KEY  (stec_user_id) REFERENCES stec_user (stec_user_id),		' ||
+'	CONSTRAINT uq_stec_login UNIQUE (login),	' ||
+'	CONSTRAINT pk_stec_login_id     
+	PRIMARY KEY ( stec_login_id ) 
+	ENABLE                     
+ )											' 
+);
+
+CALL pr_autoincrement_add_to('stec_login');
+
+CALL pr_create_tr_check_bid('stec_login', ' SYS.pkg_stec.fn_my_caller in ( ''<package body '' || fn_stec_schema || ''.PKG_STEC_ACCOUNT>'') ' );
+ 
+CREATE OR REPLACE TRIGGER tr_stec_login_bu 
+          BEFORE UPDATE ON stec_login
+          FOR EACH ROW
+          BEGIN
+           IF ( NOT ( :NEW.login LIKE :OLD.login ) )  THEN 
+             RAISE_APPLICATION_ERROR(-20011, 'DO NEVER change login!!!'); 
+           END IF; 
+          END;     
+/
+
+CREATE OR REPLACE FUNCTION FN_PLC_STEC_LOGIN
+(
+    p_schema  IN VARCHAR2,
+    p_table   IN VARCHAR2
+)
+RETURN VARCHAR
+AS
+BEGIN
+  IF (p_schema LIKE USER) THEN
+    RETURN NULL;
+  END IF;
+  RETURN '(login IN (USER))';
+END;
+/
+
+--  begin
+--    dbms_rls.drop_policy(
+--      object_schema => fn_stec_schema,
+--      object_name => 'STEC_LOGIN',
+--      policy_name => 'PLC_STEC_LOGIN'
+--    );
+--  end;
+--  /
+
+BEGIN
+  sys.dbms_rls.add_policy (
+    object_schema     		=> fn_stec_schema,
+    object_name       		=> 'STEC_LOGIN',
+    policy_name       		=> 'PLC_STEC_LOGIN',
+    function_schema   		=> fn_stec_schema,
+    policy_function   		=> 'FN_PLC_STEC_LOGIN',
+    statement_types   		=> 'INSERT, UPDATE, DELETE',
+    update_check      		=> FALSE,
+    sec_relevant_cols 		=> 'PW'
+--    sec_relevant_cols_opt => DBMS_RLS.ALL_ROWS
+    );
+END;
+/
+
+CREATE OR REPLACE FUNCTION FN_PLC_STEC_LOGIN_S
+(
+    p_schema  IN VARCHAR2,
+    p_table   IN VARCHAR2
+)
+RETURN VARCHAR
+AS
+BEGIN
+  IF (p_schema LIKE USER) THEN
+    RETURN NULL;
+  END IF;
+  RETURN '(1=0)';
+END;
+/
+
+--  begin
+--    dbms_rls.drop_policy(
+--      object_schema => fn_stec_schema,
+--      object_name => 'STEC_LOGIN',
+--      policy_name => 'PLC_STEC_LOGIN'
+--    );
+--  end;
+--  /
+
+BEGIN
+  sys.dbms_rls.add_policy (
+    object_schema     		=> fn_stec_schema,
+    object_name      		=> 'STEC_LOGIN',
+    policy_name       		=> 'PLC_STEC_LOGIN_SEL',
+    function_schema   		=> fn_stec_schema,
+    policy_function   		=> 'FN_PLC_STEC_LOGIN_SEL',
+    statement_types   		=> 'SELECT',
+--    update_check      		=> FALSE,
+    sec_relevant_cols		=> 'PW',
+    sec_relevant_cols_opt	=> dbms_rls.ALL_ROWS
+  );
+END;
+/
+
+--------------------------------------------------------------------------------

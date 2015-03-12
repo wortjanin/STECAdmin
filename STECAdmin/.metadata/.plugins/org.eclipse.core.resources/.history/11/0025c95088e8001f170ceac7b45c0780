@@ -1,0 +1,18 @@
+CALL pr_create_if_not_exists(
+'CREATE TABLE				obj_operation_set    
+ (																	' ||
+'	obj_operation_set_id	INT	        		NOT NULL,			' ||
+'	constant				VARCHAR2(64 BYTE)	NOT NULL,			' ||
+'	name					VARCHAR2(64 CHAR)	NOT NULL,			' ||
+'	CONSTRAINT uq_obj_operation_set UNIQUE (constant),				' ||
+'	CONSTRAINT pk_obj_operation_set_id     
+	PRIMARY KEY ( obj_operation_set_id ) 
+	ENABLE                     
+ )											' 
+);
+CALL pr_autoincrement_add_to('obj_operation_set');
+
+-- constant =
+--   OSET_MANAGER_DOCUMENTS
+--   OSET_MANAGER_GOODS
+--   OSET_ADD_NEWS

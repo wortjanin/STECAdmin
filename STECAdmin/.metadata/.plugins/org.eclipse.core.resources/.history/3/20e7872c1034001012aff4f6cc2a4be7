@@ -1,0 +1,12 @@
+output.. = bin/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               icons/alt_window_16.gif,\
+               icons/alt_window_32.gif,\
+               plugin_customization.ini,\
+               MyOracle/
+source.. = src/
+jars.compile.order = .,\
+                     MyOracle/
+source.MyOracle/ = 

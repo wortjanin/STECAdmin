@@ -1,0 +1,8 @@
+
+CREATE OR REPLACE PROCEDURE pr_commit
+AS
+-- use this function only for those queries, which use pkg_stec_transact (directly or not)
+BEGIN
+	pkg_stec_transact.pr_complete('Y');
+END;
+/

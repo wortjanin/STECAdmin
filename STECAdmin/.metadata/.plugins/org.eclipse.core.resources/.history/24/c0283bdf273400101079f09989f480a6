@@ -1,0 +1,162 @@
+package me.stec.admin.db;
+
+import java.sql.Connection;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.KeyEvent;
+import org.eclipse.swt.events.KeyListener;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.graphics.Rectangle;
+import org.eclipse.swt.layout.FillLayout;
+import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.ui.PlatformUI;
+
+import com.swtdesigner.ResourceManager;
+
+import oracle.jdbc.pool.OracleDataSource;
+
+
+/**
+ * @author chernoivanov
+ *
+ */
+public class Conn {
+	private Conn(){}
+//	private static Connection conn = null;
+	private static String connString = "";
+	public static void setConnString(String text){
+		connString = text;
+//		conn = InnConn.promptForUsrPswd(connString );
+	}
+	public static Connection get(){
+		return InnConn.conn;
+	}
+	
+	public static class InnConn{
+		private InnConn(){}
+		private static Connection conn = null;
+		
+		public static void Close(){
+			try{ conn.close();	}catch(Throwable e){}
+			conn = null;
+		}
+		
+		public static  boolean Open(String connString, String user, String password){
+	            try {
+	            	InnConn.Close();
+	   				OracleDataSource ods = new OracleDataSource();
+	   				ods.setURL(connString);
+	   				ods.setUser(user);
+	   				ods.setPassword(password);
+	   				conn = ods.getConnection();
+	            	conn.setAutoCommit(false);
+	
+	           	  //Create pool-enabled data source instance.
+	           		return true;
+	            }catch(Throwable e){
+//	            	e.printStackTrace();
+	            	setErrString(e.getMessage().trim());
+	            	return false;
+	            }
+				//("jdbc:oracle:thin:@localhost:1521:orcl", "scott", "tiger");
+		                            // @machineName:port:SID,   userid,  password
+		}
+	
+		private static  String errString = "";
+		
+		
+	
+//		public static Connection promptForUsrPswd(final String connString){
+//	
+//			Display display = PlatformUI.getWorkbench().getDisplay();
+//		    final Shell shell = new Shell(display, SWT.APPLICATION_MODAL);
+//		    shell.setImage(ResourceManager.getPluginImage("me.stec.admin", "icons/app/Lock.png"));
+//		    if(shell.isDisposed()) return conn;
+//	
+//
+//		    shell.setLayout(new FillLayout());
+//		    WgConn wgConn = new WgConn(shell, SWT.FILL);
+//		    final Text textUsr = wgConn.getTxtLogin();
+//		    Button btnOk = wgConn.getBtnConnect();
+//		    final Text textPwd = wgConn.getTxtPassword();
+//		    final Text labelErr = new Text(shell, SWT.FILL);// = wgConn.getLblError();
+//		    Button btnCancel = wgConn.getBtnCancel();
+//	
+//		    textUsr.setText("dev");
+//		    btnOk.addSelectionListener(	new SelectionAdapter() {
+//		      public void widgetSelected(SelectionEvent e) {
+//					if(Open(//"jdbc:oracle:thin:@localhost:1521:dbx",
+//							connString,
+//							/*usr = */textUsr.getText(), textPwd.getText())){
+//						  	bOk = true;
+//						  	shell.close();
+//						  	setErrString("");
+//						}
+//					else{
+//						labelErr.setText(Translate(getErrString()));
+//						labelErr.setEnabled(true);
+//					}
+//		      	}
+//		      });
+//		    textUsr.addKeyListener(new KeyListener() {	public void keyReleased(KeyEvent e) {	}
+//				public void keyPressed(KeyEvent e) {
+//					labelErr.setEnabled(false);
+//				}
+//			});
+//		    textPwd.addKeyListener(new KeyListener() {	public void keyReleased(KeyEvent e) {	}
+//			public void keyPressed(KeyEvent e) {
+//				labelErr.setEnabled(false);
+//			}
+//		});
+//		    
+//		    
+//		    btnCancel.addSelectionListener(new SelectionAdapter() {
+//				public void widgetSelected(SelectionEvent e) {
+//					System.exit(1);
+//				}
+//			});
+//		    shell.setSize(230, 100);
+//	
+//		    Rectangle rDis = shell.getDisplay().getBounds();
+//		    int w = rDis.width, h = rDis.height;
+//		    shell.setLocation(
+//		    		Math.max(400, w/2 - shell.getSize().x/2 + 60), 
+//		    		Math.max(300, h/2 - shell.getSize().y/2 + 100));
+//		    shell.setText("Подключение к БД");
+//		    
+//		    shell.open();
+//		    //textUsr.forceFocus();
+//		    textPwd.forceFocus();
+//		    
+//		    while (!shell.isDisposed()) 
+//		      if (!shell.getDisplay().readAndDispatch()) 
+//		    	  shell.getDisplay().sleep();
+//		 
+//		    if(!bOk)	System.exit(1);
+//			return conn;
+//		}
+	
+//		private static String Translate(String s){
+//			if(s.contains("ORA-01017"))
+//				return "Неправильный логин/пароль";
+//			else if(s.contains("The Network Adapter could not establish the connection"))
+//				return "Проблемы с подключением/адресом БД";
+//			return s;
+//		}
+
+		public static void setErrString(String errString) {
+			InnConn.errString = errString;
+		}
+
+		public static String getErrString() {
+			return errString;
+		}
+		private static  boolean bOk = false;
+	}
+
+}
+

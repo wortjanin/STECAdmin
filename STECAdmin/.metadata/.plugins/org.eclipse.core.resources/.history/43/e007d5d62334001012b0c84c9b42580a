@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="СТЭК Администратор" uid="me.stec.admin.product" id="me.stec.admin.product" application="me.stec.admin.application" version="1.0.0.qualifier" useFeatures="false" includeLaunchers="true">
+
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="icons/alt_window_16.gif" i32="icons/alt_window_32.gif"/>
+
+   <splash
+      location="me.stec.admin"
+      handlerType="interactive" />
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+      <windows include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6</windows>
+   </vm>
+
+
+   <plugins>
+   </plugins>
+
+
+</product>

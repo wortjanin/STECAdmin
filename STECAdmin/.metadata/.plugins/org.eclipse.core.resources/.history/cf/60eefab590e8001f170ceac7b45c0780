@@ -1,0 +1,167 @@
+CALL pr_create_if_not_exists(
+'CREATE TABLE				obj_operation    
+ (															' ||
+'	obj_operation_id		INT	        		NOT NULL,	' ||
+'	obj_operation_set_id	INT	        		NOT NULL,	' ||
+'	object_name				VARCHAR2(30 BYTE)	NOT NULL,	' ||
+'	object_type				CHAR(2 BYTE)		NOT NULL,	' ||
+'	sel						CHAR(1 BYTE)   		NOT NULL,	' ||
+'	ins						CHAR(1 BYTE)   		NOT NULL,	' ||
+'	upd						CHAR(1 BYTE)   		NOT NULL,	' ||
+'	del						CHAR(1 BYTE)   		NOT NULL,	' ||
+'	exe						CHAR(1 BYTE)   		NOT NULL,	' ||
+'	grnt					CHAR(1 BYTE)   		NOT NULL,	' ||
+'	CONSTRAINT uq_obj_operation UNIQUE (
+		obj_operation_set_id,
+		object_name,
+		object_type,
+		sel,
+		ins,
+		upd,
+		del,
+		exe,
+		grnt),			' ||
+'	CONSTRAINT ck_obj_operation_type	CHECK	(object_type	IN (''TB'', ''VW'', ''FN'', ''PR'', ''PK'')),	' ||
+'	CONSTRAINT ck_obj_operation_sel		CHECK	(sel			IN (''Y'', ''N'')),			' ||
+'	CONSTRAINT ck_obj_operation_ins		CHECK	(ins			IN (''Y'', ''N'')),			' ||
+'	CONSTRAINT ck_obj_operation_upd		CHECK	(upd			IN (''Y'', ''N'')),			' ||
+'	CONSTRAINT ck_obj_operation_del		CHECK	(del			IN (''Y'', ''N'')),			' ||
+'	CONSTRAINT ck_obj_operation_exe		CHECK	(exe			IN (''Y'', ''N'')),			' ||
+'	CONSTRAINT ck_obj_operation_grnt	CHECK	(grnt			IN (''Y'', ''N'')),			' ||
+'	CONSTRAINT fk_obj_operation_set
+	FOREIGN KEY	( obj_operation_set_id )	REFERENCES obj_operation_set	(obj_operation_set_id),	' ||
+'	CONSTRAINT pk_obj_operation_id     
+	PRIMARY KEY ( obj_operation_id ) 
+	ENABLE                     
+ )											' 
+);
+
+CALL pr_autoincrement_add_to('obj_operation');
+
+
+
+CREATE OR REPLACE TRIGGER tr_obj_operation_biu 
+BEFORE INSERT OR UPDATE ON obj_operation
+FOR EACH ROW
+DECLARE
+  me_obj_name DBA_OBJECTS.OBJECT_NAME%TYPE;
+  me_obj_type DBA_OBJECTS.OBJECT_TYPE%TYPE := 
+  		(CASE WHEN 'VW' = :NEW.object_type THEN 'VIEW'		ELSE
+  		(CASE WHEN 'TB' = :NEW.object_type THEN 'TABLE'		ELSE
+  		(CASE WHEN 'FN' = :NEW.object_type THEN 'FUNCTION'	ELSE
+  		(CASE WHEN 'PR' = :NEW.object_type THEN 'PROCEDURE'	ELSE
+											  	'PACKAGE'  			
+  		 END) END) END) END);
+BEGIN
+	SELECT OBJECT_NAME 	INTO me_obj_name
+						FROM DBA_OBJECTS 
+   	    	  			WHERE 	fn_stec_schema		= OWNER			AND 
+       	    	    			:NEW.object_name	= OBJECT_NAME	AND
+           	    				me_obj_type			= OBJECT_TYPE;
+-- if the NEW.object_name or NEW.object_type are incorrect, there should be an exception	
+    IF(	'VW' =		:NEW.object_type OR
+    	'TB' =		:NEW.object_type 		) THEN
+    	IF ('Y' =	:NEW.exe) THEN
+    		RAISE_APPLICATION_ERROR(-20002, 'EXECUTE is not for TABLE or VIEW');
+    	END IF;
+    ELSE
+    	IF ('Y' = :NEW.sel OR
+    		'Y' = :NEW.ins OR
+    		'Y' = :NEW.upd OR
+    		'Y' = :NEW.del 		) THEN
+    		RAISE_APPLICATION_ERROR(-20002, 'SELECT, INSERT, UPDATE, DELETE operations are for TABLE or VIEW only');
+    	END IF;
+    END IF;
+END;
+/
+
+INSERT 	INTO a_dangerous_object	(a_dangerous_object_id, object_name, 		object_type, 	description)
+   		VALUES					(NULL,					'OBJ_OPERATION',	'TB',			'Таблица obj_operation содержит поле object_name (имя объекта БД) и object_type (таблица, функция и т.д.) - имена этих объектов в БД категорически НЕ рекомендуется изменять (иначе придётся заново регенерировать права для всех аксессоров, ссылающихся на эти права - в obj_operation)');
+COMMIT;   		
+-- select * from a_dangerous_object;
+
+CREATE OR REPLACE FUNCTION FN_PLC_OBJ_OPERATION
+(
+    p_schema  IN VARCHAR2,
+    p_table   IN VARCHAR2
+)
+RETURN VARCHAR
+AS
+BEGIN
+  RETURN '(0=1)';
+END;
+/
+
+--  begin
+--    dbms_rls.drop_policy(
+--      object_schema => fn_stec_schema,
+--      object_name => 'OBJ_OPERATION',
+--      policy_name => 'PLC_OBJ_OPERATION'
+--    );
+--  end;
+--  /
+
+BEGIN
+  sys.dbms_rls.add_policy (
+    object_schema     		=> fn_stec_schema,
+    object_name       		=> 'OBJ_OPERATION',
+    policy_name       		=> 'PLC_OBJ_OPERATION',
+    function_schema   		=> fn_stec_schema,
+    policy_function   		=> 'FN_PLC_OBJ_OPERATION',
+    statement_types   		=> 'INSERT, UPDATE, DELETE',
+    update_check      		=> TRUE,
+    sec_relevant_cols_opt 	=> DBMS_RLS.ALL_ROWS
+    );
+END;
+/
+
+CREATE OR REPLACE FUNCTION FN_PLC_OBJ_OPERATION_SET_S
+(
+    p_schema  IN VARCHAR2,
+    p_table   IN VARCHAR2
+)
+RETURN VARCHAR
+AS
+	m_acc_id stec_user.stec_accessor_id%TYPE := pkg_stec_account.fn_stec_user_acc_id;
+BEGIN
+  IF (p_schema LIKE USER) THEN
+    RETURN NULL;
+  END IF;
+  RETURN '(obj_operation_set_id IN 
+			(SELECT DA.obj_operation_set_id 
+				FROM	division_access DA, 
+						stec_role_accessor SRA 
+					WHERE 	SRA.stec_accessor_id		= ' || m_acc_id  || '
+							DA.stec_role_stec_acc_id 	= SRA.stec_role_stec_acc_id 	
+		  	)	 																	
+		  )';
+END;
+/
+
+--  begin
+--    dbms_rls.drop_policy(
+--      object_schema => fn_stec_schema,
+--      object_name => 'OBJ_OPERATION_SET',
+--      policy_name => 'PLC_OBJ_OPERATION_SET_S'
+--    );
+--  end;
+--  /
+
+BEGIN
+  sys.dbms_rls.add_policy (
+    object_schema     		=> fn_stec_schema,
+    object_name      		=> 'OBJ_OPERATION_SET',
+    policy_name       		=> 'PLC_OBJ_OPERATION_SET_S',
+    function_schema   		=> fn_stec_schema,
+    policy_function   		=> 'FN_PLC_OBJ_OPERATION_SET_S',
+    statement_types   		=> 'SELECT',
+    update_check      		=> FALSE,
+--    sec_relevant_cols		=> 'PW',
+    sec_relevant_cols_opt	=> dbms_rls.ALL_ROWS
+  );
+END;
+/
+
+--------------------------------------------------------------------------------
+
+		

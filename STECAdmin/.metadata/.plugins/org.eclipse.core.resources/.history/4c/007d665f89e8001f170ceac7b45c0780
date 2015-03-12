@@ -1,0 +1,19 @@
+CALL pr_create_if_not_exists(
+'CREATE TABLE	division_access  
+ (																	' ||
+'	division_access_id		INT      	NOT NULL,					' ||
+'	stec_role_id			INT      	NOT NULL,					' ||
+'	obj_operation_set_id	INT      	NOT NULL,					' ||
+'	division_id				INT	       	NOT NULL,					' ||
+'	CONSTRAINT fk_division_access_rl
+	FOREIGN KEY (stec_role_id) REFERENCES stec_role (stec_role_id),	' ||
+'	CONSTRAINT fk_division_access_set
+	FOREIGN KEY (obj_operation_set_id) REFERENCES obj_operation_set (obj_operation_set_id),	' ||
+'	CONSTRAINT fk_division_access_division
+	FOREIGN KEY (division_id) REFERENCES division (division_id),	' ||
+'	CONSTRAINT pk_division_access_id     
+	PRIMARY KEY ( division_access_id ) 
+	ENABLE                     
+ )											' 
+);
+CALL pr_autoincrement_add_to('division_access');

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1287614276656" transient="true" version="3.0">
+<site enabled="true" list="plugins/org.eclipse.core.databinding.property_1.3.0.I20100601-0800.jar,plugins/org.eclipse.core.runtime_3.6.0.v20100505.jar,plugins/org.eclipse.core.databinding_1.3.100.I20100601-0800.jar,plugins/org.eclipse.equinox.common_3.6.0.v20100503.jar,plugins/org.eclipse.core.commands_3.6.0.I20100512-1500.jar,plugins/org.eclipse.help_3.5.0.v20100524.jar,plugins/org.eclipse.core.contenttype_3.4.100.v20100505-1235.jar,plugins/org.eclipse.jface_3.6.0.I20100601-0800.jar,plugins/org.eclipse.equinox.preferences_3.3.0.v20100503.jar,plugins/org.eclipse.jface.databinding_1.4.0.I20100601-0800.jar,plugins/org.eclipse.core.databinding.observable_1.3.0.I20100601-0800.jar,plugins/org.eclipse.equinox.registry_3.5.0.v20100503.jar,plugins/org.eclipse.swt_3.6.0.v3650b.jar,plugins/org.eclipse.osgi_3.6.0.v20100517.jar,plugins/com.google.guava_0.1.1.201004100822,plugins/org.eclipse.ui_3.6.0.I20100603-1100.jar,plugins/org.eclipse.ui.workbench_3.6.0.I20100603-1100.jar,plugins/org.eclipse.core.jobs_3.5.0.v20100515-p001.jar,plugins/org.eclipse.core.expressions_3.4.200.v20100505.jar,plugins/com.ibm.icu_4.2.1.v20100412.jar,plugins/org.eclipse.core.runtime.compatibility.registry_3.3.0.v20100520,plugins/org.eclipse.swt.win32.win32.x86_3.6.0.v3650b.jar,plugins/org.eclipse.equinox.app_1.3.0.v20100512.jar" policy="USER-INCLUDE" updateable="true" url="file:/D:/java/eclipse-rcp-helios-win32/eclipse/">
+<feature id="org.eclipse.nebula.widgets.datechooser.feature" url="features/org.eclipse.nebula.widgets.datechooser.feature_1.0.0.HEAD/" version="1.0.0.HEAD">
+</feature>
+<feature id="org.eclipse.emf.mapping" url="features/org.eclipse.emf.mapping_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.emf.codegen.ecore.ui" url="features/org.eclipse.emf.codegen.ecore.ui_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.mylyn.wikitext_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn.wikitext_feature_1.3.0.v20100608-0100-e3x/" version="1.3.0.v20100608-0100-e3x">
+</feature>
+<feature id="org.eclipse.datatools.connectivity.oda.designer.core.feature" plugin-identifier="org.eclipse.datatools.connectivity.oda.design.ui" url="features/org.eclipse.datatools.connectivity.oda.designer.core.feature_1.8.0.v201005280400-7B7C77CcNBGKBaIdEbPQ/" version="1.8.0.v201005280400-7B7C77CcNBGKBaIdEbPQ">
+</feature>
+<feature id="com.instantiations.designer.layout.group.feature" plugin-identifier="com.instantiations.designer.layout.group" url="features/com.instantiations.designer.layout.group.feature_8.0.0.r36x201009160635/" version="8.0.0.r36x201009160635">
+</feature>
+<feature id="oracle.eclipse.tools.helios.coherence" plugin-identifier="oracle.eclipse.tools.coherence" url="features/oracle.eclipse.tools.helios.coherence_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="oracle.eclipse.tools.helios.webtier" plugin-identifier="oracle.eclipse.tools.webtier" url="features/oracle.eclipse.tools.helios.webtier_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="com.instantiations.eclipse.ui" url="features/com.instantiations.eclipse.ui_8.0.0.r36x201009131432/" version="8.0.0.r36x201009131432">
+</feature>
+<feature id="org.eclipse.datatools.doc.user" url="features/org.eclipse.datatools.doc.user_1.8.0.v201005280400-47C08w95ENAK6AFDFK7/" version="1.8.0.v201005280400-47C08w95ENAK6AFDFK7">
+</feature>
+<feature id="oracle.eclipse.tools.helios.doc.javaee6" plugin-identifier="oracle.eclipse.tools.doc.javaee6" url="features/oracle.eclipse.tools.helios.doc.javaee6_1.0.0.201007071726/" version="1.0.0.201007071726">
+</feature>
+<feature id="oracle.eclipse.tools.helios.patch.317638" url="features/oracle.eclipse.tools.helios.patch.317638_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="org.eclipse.emf.codegen.ui" url="features/org.eclipse.emf.codegen.ui_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="oracle.eclipse.tools.helios.weblogic" plugin-identifier="oracle.eclipse.tools.weblogic" url="features/oracle.eclipse.tools.helios.weblogic_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="com.instantiations.designer.swing.feature" plugin-identifier="com.instantiations.designer.swing" url="features/com.instantiations.designer.swing.feature_8.0.0.r36x201009160643/" version="8.0.0.r36x201009160643">
+</feature>
+<feature id="com.instantiations.designer.swt.feature" plugin-identifier="com.instantiations.designer.swt" url="features/com.instantiations.designer.swt.feature_8.0.0.r36x201009160641/" version="8.0.0.r36x201009160641">
+</feature>
+<feature id="org.eclipse.datatools.enablement.oracle.feature" plugin-identifier="org.eclipse.datatools.enablement.finfo" url="features/org.eclipse.datatools.enablement.oracle.feature_1.8.0.v201005280400-548cAkF79P7UBMATEE/" version="1.8.0.v201005280400-548cAkF79P7UBMATEE">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.0.1.r361_v20100903-897HFZFFZRuSD2LMtVxyz0Vr/" version="2.0.1.r361_v20100903-897HFZFFZRuSD2LMtVxyz0Vr">
+</feature>
+<feature id="org.eclipse.mylyn.ide_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn.ide_feature_3.4.0.v20100608-0100-e3x/" version="3.4.0.v20100608-0100-e3x">
+</feature>
+<feature id="org.eclipse.jet.source" url="features/org.eclipse.jet.source_1.1.0.v201006081557/" version="1.1.0.v201006081557">
+</feature>
+<feature id="oracle.eclipse.tools.helios.doc.javaee5" plugin-identifier="oracle.eclipse.tools.doc.javaee5" url="features/oracle.eclipse.tools.helios.doc.javaee5_1.0.0.201007071726/" version="1.0.0.201007071726">
+</feature>
+<feature id="org.eclipse.epp.package.common.feature" url="features/org.eclipse.epp.package.common.feature_1.3.0.20100617-0520/" version="1.3.0.20100617-0520">
+</feature>
+<feature id="org.eclipse.emf" url="features/org.eclipse.emf_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.datatools.connectivity.oda.feature" plugin-identifier="org.eclipse.datatools.connectivity.oda" url="features/org.eclipse.datatools.connectivity.oda.feature_1.8.0.v201005280400-7H7C6CcNBHBBZKjEXLf/" version="1.8.0.v201005280400-7H7C6CcNBHBBZKjEXLf">
+</feature>
+<feature id="org.eclipse.emf.edit" url="features/org.eclipse.emf.edit_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.wst.xml_userdoc.feature" url="features/org.eclipse.wst.xml_userdoc.feature_3.2.100.v201005241420-50FXNAkF7B77RBgFFBF/" version="3.2.100.v201005241420-50FXNAkF7B77RBgFFBF">
+</feature>
+<feature id="org.eclipse.epp.usagedata.feature" url="features/org.eclipse.epp.usagedata.feature_1.3.0.R201005261100/" version="1.3.0.R201005261100">
+</feature>
+<feature id="org.eclipse.emf.converter" url="features/org.eclipse.emf.converter_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.jet.doc" url="features/org.eclipse.jet.doc_1.1.0.v201006011447-20-7w312114362635/" version="1.1.0.v201006011447-20-7w312114362635">
+</feature>
+<feature id="org.eclipse.mylyn.bugzilla_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn.bugzilla_feature_3.4.0.v20100608-0100-e3x/" version="3.4.0.v20100608-0100-e3x">
+</feature>
+<feature id="oracle.eclipse.tools.helios.oepe.product" url="features/oracle.eclipse.tools.helios.oepe.product_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="org.eclipse.mylyn.pde_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn.pde_feature_3.4.0.v20100608-0100-e3x/" version="3.4.0.v20100608-0100-e3x">
+</feature>
+<feature id="org.eclipse.datatools.connectivity.oda.designer.feature" plugin-identifier="org.eclipse.datatools.connectivity.oda.design.ui" url="features/org.eclipse.datatools.connectivity.oda.designer.feature_1.8.0.v201005280400-4107w3121151A1A53/" version="1.8.0.v201005280400-4107w3121151A1A53">
+</feature>
+<feature id="org.eclipse.wst.xml_core.feature" url="features/org.eclipse.wst.xml_core.feature_3.2.0.v201005241510-7C7OFXTF7RZHQHHxO4IuKe/" version="3.2.0.v201005241510-7C7OFXTF7RZHQHHxO4IuKe">
+</feature>
+<feature id="oracle.eclipse.tools.helios.glassfish" plugin-identifier="oracle.eclipse.tools.glassfish" url="features/oracle.eclipse.tools.helios.glassfish_1.6.0.201007071726/" version="1.6.0.201007071726">
+</feature>
+<feature id="org.eclipse.emf.databinding.edit" url="features/org.eclipse.emf.databinding.edit_1.2.0.v20100614-1136/" version="1.2.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.6.1.r361_v20100727-7b7mFL-FET3dhESDgE5_bkJ/" version="3.6.1.r361_v20100727-7b7mFL-FET3dhESDgE5_bkJ">
+</feature>
+<feature id="org.eclipse.emf.common.ui" url="features/org.eclipse.emf.common.ui_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.emf.ecore.edit" url="features/org.eclipse.emf.ecore.edit_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.jet.capabilities" url="features/org.eclipse.jet.capabilities_1.0.0.v201006011447-2--7w311A17231A11/" version="1.0.0.v201006011447-2--7w311A17231A11">
+</feature>
+<feature id="org.springframework.ide.eclipse.feature" plugin-identifier="org.springframework.ide.eclipse" url="features/org.springframework.ide.eclipse.feature_2.3.0.200912170948-RELEASE/" version="2.3.0.200912170948-RELEASE">
+</feature>
+<feature id="org.eclipse.wst.xml_ui.feature" plugin-identifier="org.eclipse.wst.xml.ui" url="features/org.eclipse.wst.xml_ui.feature_3.2.0.v201005241510-7H7AFUIDxumQGOb7ocjUR2Pvz-28/" version="3.2.0.v201005241510-7H7AFUIDxumQGOb7ocjUR2Pvz-28">
+</feature>
+<feature id="oracle.eclipse.tools.helios.database" plugin-identifier="oracle.eclipse.tools.database.connectivity" url="features/oracle.eclipse.tools.helios.database_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="com.instantiations.designer.core.feature" plugin-identifier="com.instantiations.designer.core" url="features/com.instantiations.designer.core.feature_8.0.0.r36x201009160631/" version="8.0.0.r36x201009160631">
+</feature>
+<feature id="org.eclipse.emf.mapping.ecore.editor" url="features/org.eclipse.emf.mapping.ecore.editor_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.jet.core" url="features/org.eclipse.jet.core_1.1.0.v201006011447-32-8s7353387E589A/" version="1.1.0.v201006011447-32-8s7353387E589A">
+</feature>
+<feature id="com.google.gdata.feature" plugin-identifier="com.google.gdata" url="features/com.google.gdata.feature_1.0.0/" version="1.0.0">
+</feature>
+<feature id="org.eclipse.equinox.p2.discovery.feature" url="features/org.eclipse.equinox.p2.discovery.feature_1.0.0.v20100510-4--9oB5855K7P/" version="1.0.0.v20100510-4--9oB5855K7P">
+</feature>
+<feature id="org.eclipse.emf.ecore.editor" url="features/org.eclipse.emf.ecore.editor_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_3.6.1.r361_v20100909-9gF78GrkFqw7GrsZnvz0JWNTeb6fue6896L/" version="3.6.1.r361_v20100909-9gF78GrkFqw7GrsZnvz0JWNTeb6fue6896L">
+</feature>
+<feature id="com.instantiations.eclipse.shared" url="features/com.instantiations.eclipse.shared_6.0.0.r36x201009131414/" version="6.0.0.r36x201009131414">
+</feature>
+<feature id="oracle.eclipse.tools.helios.patches" url="features/oracle.eclipse.tools.helios.patches_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="org.eclipse.jet" url="features/org.eclipse.jet_1.1.0.v201006081557-53-9sC7HAAJDUAVEJ3924/" version="1.1.0.v201006081557-53-9sC7HAAJDUAVEJ3924">
+</feature>
+<feature id="com.instantiations.designer.xwt.feature" plugin-identifier="com.instantiations.designer.xwt" url="features/com.instantiations.designer.xwt.feature_8.0.0.r36x201009160656/" version="8.0.0.r36x201009160656">
+</feature>
+<feature id="oracle.eclipse.tools.helios.common" url="features/oracle.eclipse.tools.helios.common_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="org.eclipse.rap.tooling" url="features/org.eclipse.rap.tooling_1.3.0.20100615-1734/" version="1.3.0.20100615-1734">
+</feature>
+<feature id="com.google.guava.feature" url="features/com.google.guava.feature_0.1.1.201004100822/" version="0.1.1.201004100822">
+</feature>
+<feature id="org.python.pydev.feature" plugin-identifier="org.python.pydev" url="features/org.python.pydev.feature_1.5.7.2010050621/" version="1.5.7.2010050621">
+</feature>
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.2.0.v20100427-7e7jEQFEp4jsWcboLU9l93/" version="1.2.0.v20100427-7e7jEQFEp4jsWcboLU9l93">
+</feature>
+<feature id="org.eclipse.emf.codegen.ecore" url="features/org.eclipse.emf.codegen.ecore_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.epp.package.rcp.feature" plugin-identifier="org.eclipse.epp.package.rcp" url="features/org.eclipse.epp.package.rcp.feature_1.3.0.20100617-0521/" version="1.3.0.20100617-0521">
+</feature>
+<feature id="org.eclipse.emf.databinding" url="features/org.eclipse.emf.databinding_1.2.0.v20100614-1136/" version="1.2.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.datatools.enablement.jdbc.feature" plugin-identifier="org.eclipse.datatools.enablement.sybase" url="features/org.eclipse.datatools.enablement.jdbc.feature_1.8.0.v201005280400-4-29oB56N5N7L6PAQ/" version="1.8.0.v201005280400-4-29oB56N5N7L6PAQ">
+</feature>
+<feature id="org.eclipse.rcp.source" url="features/org.eclipse.rcp.source_3.6.1.r361_v20100827-9OArFLdFjY-ThSQXmKvKz0_T/" version="3.6.1.r361_v20100827-9OArFLdFjY-ThSQXmKvKz0_T">
+</feature>
+<feature id="org.eclipse.jet.uml2" url="features/org.eclipse.jet.uml2_1.1.0.v201006011447-2-07w311A1A152813/" version="1.1.0.v201006011447-2-07w311A1A152813">
+</feature>
+<feature id="org.eclipse.datatools.modelbase.feature" plugin-identifier="org.eclipse.datatools.modelbase.sql" url="features/org.eclipse.datatools.modelbase.feature_1.8.0.v201005280400-77077CcNBGKBWJ_HWVi/" version="1.8.0.v201005280400-77077CcNBGKBWJ_HWVi">
+</feature>
+<feature id="org.eclipse.cvs" url="features/org.eclipse.cvs_1.2.0.v20100427-7B77FKt90GE5h0SBT5FV9A01911/" version="1.2.0.v20100427-7B77FKt90GE5h0SBT5FV9A01911">
+</feature>
+<feature id="org.eclipse.mylyn.team_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn.team_feature_3.4.0.v20100608-0100-e3x/" version="3.4.0.v20100608-0100-e3x">
+</feature>
+<feature id="org.eclipse.epp.mpc" plugin-identifier="org.eclipse.epp.mpc.ui" url="features/org.eclipse.epp.mpc_1.0.0.v20100611-0430/" version="1.0.0.v20100611-0430">
+</feature>
+<feature id="oracle.eclipse.tools.helios.patch.316839.source" url="features/oracle.eclipse.tools.helios.patch.316839.source_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="org.eclipse.mylyn_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn_feature_3.4.0.v20100608-0100-e3x/" version="3.4.0.v20100608-0100-e3x">
+</feature>
+<feature id="oracle.eclipse.tools.helios.spring" plugin-identifier="oracle.eclipse.tools.spring" url="features/oracle.eclipse.tools.helios.spring_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="oracle.eclipse.tools.helios.patch.317638.source" url="features/oracle.eclipse.tools.helios.patch.317638.source_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="org.eclipse.datatools.connectivity.feature" plugin-identifier="org.eclipse.datatools.connectivity" url="features/org.eclipse.datatools.connectivity.feature_1.8.0.v201005280400-7C7b8cEt1ZvsifWcrT8a-F-sz05R/" version="1.8.0.v201005280400-7C7b8cEt1ZvsifWcrT8a-F-sz05R">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_3.6.1.r361_v20100827-9OArFLdFjY-ThSQXmKvKz0_T/" version="3.6.1.r361_v20100827-9OArFLdFjY-ThSQXmKvKz0_T">
+</feature>
+<feature id="com.instantiations.designer.rcp.feature" plugin-identifier="com.instantiations.designer.rcp" url="features/com.instantiations.designer.rcp.feature_8.0.0.r36x201009160649/" version="8.0.0.r36x201009160649">
+</feature>
+<feature id="org.eclipse.wst.common_ui.feature" url="features/org.eclipse.wst.common_ui.feature_3.2.0.v201005241600-7C78FPcEdhO_mXOgHjYfp_JwVrN5/" version="3.2.0.v201005241600-7C78FPcEdhO_mXOgHjYfp_JwVrN5">
+</feature>
+<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.6.1.r361_v20100714-0800-7z8XFUSFLFlmgLc5z-Bvrt8-HVkH/" version="3.6.1.r361_v20100714-0800-7z8XFUSFLFlmgLc5z-Bvrt8-HVkH">
+</feature>
+<feature id="com.instantiations.designer.core.xml.feature" plugin-identifier="com.instantiations.designer.core.xml" url="features/com.instantiations.designer.core.xml.feature_8.0.0.r36x201009160634/" version="8.0.0.r36x201009160634">
+</feature>
+<feature id="org.eclipse.mylyn.java_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn.java_feature_3.4.0.v20100608-0100-e3x/" version="3.4.0.v20100608-0100-e3x">
+</feature>
+<feature id="org.eclipse.emf.edit.ui" url="features/org.eclipse.emf.edit.ui_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.jet.editor" url="features/org.eclipse.jet.editor_1.1.0.v201004271248-20-7w312113372154/" version="1.1.0.v201004271248-20-7w312113372154">
+</feature>
+<feature id="org.eclipse.jet.all" url="features/org.eclipse.jet.all_1.1.0.v201006011447-63-7MB5mpZIfMZtjz-a4pAGeLS5B/" version="1.1.0.v201006011447-63-7MB5mpZIfMZtjz-a4pAGeLS5B">
+</feature>
+<feature id="org.eclipse.emf.mapping.ecore" url="features/org.eclipse.emf.mapping.ecore_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui.source" url="features/org.eclipse.equinox.p2.user.ui.source_2.0.1.r361_v20100903-897HFZFFZRuSD2LMtVxyz0Vr/" version="2.0.1.r361_v20100903-897HFZFFZRuSD2LMtVxyz0Vr">
+</feature>
+<feature id="oracle.eclipse.tools.helios.patch.316839" url="features/oracle.eclipse.tools.helios.patch.316839_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="org.eclipse.jet.sdk" url="features/org.eclipse.jet.sdk_1.1.0.v201006011447-42-86A3NrKJOOHXQlFdKR4A35/" version="1.1.0.v201006011447-42-86A3NrKJOOHXQlFdKR4A35">
+</feature>
+<feature id="org.eclipse.wst.common_core.feature" url="features/org.eclipse.wst.common_core.feature_3.2.0.v201005241600-7B7DFEdF7RZHOZIvUqM4NJ/" version="3.2.0.v201005241600-7B7DFEdF7RZHOZIvUqM4NJ">
+</feature>
+<feature id="oracle.eclipse.tools.helios.weblogic.scripting" plugin-identifier="oracle.eclipse.tools.weblogic.scripting" url="features/oracle.eclipse.tools.helios.weblogic.scripting_1.6.0.201007221419/" version="1.6.0.201007221419">
+</feature>
+<feature id="org.eclipse.emf.mapping.ui" url="features/org.eclipse.emf.mapping.ui_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.platform.source" url="features/org.eclipse.platform.source_3.6.1.r361_v20100909-9gF78GrkFqw7GrsZnvz0JWNTeb6fue6896L/" version="3.6.1.r361_v20100909-9gF78GrkFqw7GrsZnvz0JWNTeb6fue6896L">
+</feature>
+<feature id="com.instantiations.designer.rcp.SWT_AWT_support" plugin-identifier="com.instantiations.designer.rcp.SWT_AWT" url="features/com.instantiations.designer.rcp.SWT_AWT_support_8.0.0.r36x201009160651/" version="8.0.0.r36x201009160651">
+</feature>
+<feature id="org.eclipse.emf.codegen" url="features/org.eclipse.emf.codegen_2.6.0.v20100614-1136/" version="2.6.0.v20100614-1136">
+</feature>
+<feature id="org.eclipse.mylyn.context_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn.context_feature_3.4.0.v20100608-0100-e3x/" version="3.4.0.v20100608-0100-e3x">
+</feature>
+</site>
+<site enabled="true" list="ws2/me.stec.jdbc/,ws2/me.stec.admin/" policy="USER-INCLUDE" updateable="true" url="file:/D:/Documents and Settings/chernoivanov/java/helios/">
+</site>
+</config>

@@ -1,0 +1,11 @@
+output.. = bin/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               plugin_customization.ini,\
+               me.stec.admin.product,\
+               icons/,\
+               lib/
+source.. = src/
+jars.compile.order = .
+jars.extra.classpath = lib/guava-r07/guava-r07.jar

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="561" localization="OSGI-INF/l10n/bundle" name="Guava" project="me.stec.guava">
+		<library name="guava-r07.jar"/>
+	</bundle>
+	<bundle bundleID="562" localization="OSGI-INF/l10n/bundle" name="Jdbc" project="me.stec.jdbc" provider="STEC">
+		<library name="ucp.jar"/>
+		<library name="ojdbc6.jar"/>
+	</bundle>
+	<bundle bundleID="563" class="me.stec.admin.Activator" localization="OSGI-INF/l10n/bundle" name="Admin" project="me.stec.admin"/>
+</map>

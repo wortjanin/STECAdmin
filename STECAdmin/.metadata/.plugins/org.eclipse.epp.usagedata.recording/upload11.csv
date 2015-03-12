@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397304875
+opened,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397305296
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397305593
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397308625
+opened,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397309078
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397309328
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397320843
+opened,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397321718
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397321937
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397350531
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397350828
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397355718
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397356640
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397359125
+opened,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397359468
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397359765
+executed,command,org.eclipse.datatools.sqltools.sqleditor,1.0.1.v201005130745,"org.eclipse.datatools.sqltools.sqleditor.toggleCommentAction",1288397406187
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.saveAll",1288397409718
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397413296
+opened,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397417843
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397418093
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397424812
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397425968
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397426093
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397429921
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397431218
+opened,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397479750
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397480171
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397497015
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397497828
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397512453
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397513390
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397526140
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397527031
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.saveAll",1288397544171
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397545609
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397546265
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.saveAll",1288397551718
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397554468
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397555843
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.saveAll",1288397560312
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397641515
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397642453
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397649437
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397655906
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397656015
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397658171
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397678109
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397683468
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397683875
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397686062
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397695156
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397695250
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397707531
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397708468
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397717218
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397739140
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397789171
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397799812
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397801734
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397810703
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397818671
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397818984
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397822203
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288397823359
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288397828218
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397844265
+error,log,,,"Error occurred while removing markers",1288397849718
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397849921
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288397850125
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397863578
+error,log,,,"Error occurred while removing markers",1288397868078
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397868546
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288397868765
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397881000
+error,log,,,"Error occurred while removing markers",1288397887609
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397887937
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288397888171
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397891609
+error,log,,,"Error occurred while removing markers",1288397901187
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397901468
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288397901609
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397914312
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397923656
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288397923750
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397933500
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397938984
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288397939203
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397941828
+error,log,,,"Error occurred while removing markers",1288397949984
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397950328
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288397950546
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397953937
+error,log,,,"Error occurred while removing markers",1288397958843
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397959078
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288397959250
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397961937
+error,log,,,"Error occurred while removing markers",1288397966718
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397966953
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288397967046
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397968781
+error,log,,,"Error occurred while removing markers",1288397973578
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288397973671
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288397973796
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398013500
+error,log,,,"Error occurred while removing markers",1288398019703
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398020062
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398020203
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398022171
+error,log,,,"Error occurred while removing markers",1288398026640
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398026875
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398027015
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398028609
+error,log,,,"Error occurred while removing markers",1288398032859
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398033125
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398033359
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398034890
+error,log,,,"Error occurred while removing markers",1288398038625
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398038968
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398039125
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398040718
+error,log,,,"Error occurred while removing markers",1288398044953
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398045203
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398045281
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398046906
+error,log,,,"Error occurred while removing markers",1288398051406
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398051687
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398051843
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398053234
+error,log,,,"Error occurred while removing markers",1288398057406
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398057671
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398057937
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398059328
+error,log,,,"Error occurred while removing markers",1288398063468
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398063656
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398063906
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398065500
+error,log,,,"Error occurred while removing markers",1288398071921
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398072203
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398072531
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398073906
+error,log,,,"Error occurred while removing markers",1288398077781
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398078000
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398078156
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398079875
+error,log,,,"Error occurred while removing markers",1288398085234
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398085593
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398085750
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398087296
+error,log,,,"Error occurred while removing markers",1288398092500
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398092859
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398093093
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398095031
+error,log,,,"Error occurred while removing markers",1288398098968
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398099375
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398099562
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398101218
+error,log,,,"Error occurred while removing markers",1288398105953
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398106312
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398106500
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398108062
+error,log,,,"Error occurred while removing markers",1288398113281
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398113609
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398113781
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398115515
+error,log,,,"Error occurred while removing markers",1288398119500
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398119812
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398119937
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398121984
+error,log,,,"Error occurred while removing markers",1288398126187
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398126375
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398126609
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398129843
+error,log,,,"Error occurred while removing markers",1288398134578
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398134937
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398135031
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398137828
+error,log,,,"Error occurred while removing markers",1288398142296
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398142578
+executed,command,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.edit.text.java.rename.element",1288398142781
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288398147187
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288398153781
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288398155421
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288398285281
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288400682046
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288400689453
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288414722406
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288414737515
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288415033343
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288415043343
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288415045000
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288415048640
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288415049578
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288415056093
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288415057375
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415072531
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415076031
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415076625
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415077171
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1288415081546
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288415086890
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288415088875
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288415090687
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288415091078
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1288415094687
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1288415102171
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1288415104906
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1288415109343
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineEnd",1288415142890
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1288415147296
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288415156812
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288415157578
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1288415163109
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288415170437
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288415171312
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1288415176671
+activated,view,org.eclipse.jdt.ui,3.6.0.v20100602-1600,"org.eclipse.jdt.ui.PackageExplorer",1288415180031
+activated,editor,org.eclipse.datatools.sqltools.sqlscrapbook,1.0.1.v201005250945,"org.eclipse.datatools.sqltools.sqlscrapbook.SQLScrapbookEditor",1288415180953
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1288415193921
+deactivated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288415284703
+activated,workbench,org.eclipse.ui.workbench,3.6.0.I20100603-1100,"",1288415289328
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415293093
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1288415294609
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1288415295671
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415348078
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415348296
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1288415349640
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415353453
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415356265
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1288415358000
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1288415359187
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.delete",1288415369718
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1288415374171
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1288415387000
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1288415388437
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1288415400015
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1288415401953
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1288415426203
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.undo",1288415426671
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.copy",1288415432093
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.paste",1288415433937
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.delete",1288415479828
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.edit.delete",1288415480546
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415481437
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415482140
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1288415483234
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415507000
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.save",1288415509140
+executed,command,org.eclipse.ui.workbench.texteditor,3.6.0.v20100520-0800,"org.eclipse.ui.edit.text.goto.lineStart",1288415552328
+executed,command,org.eclipse.ui,3.6.0.I20100603-1100,"org.eclipse.ui.file.saveAll",1288415554515

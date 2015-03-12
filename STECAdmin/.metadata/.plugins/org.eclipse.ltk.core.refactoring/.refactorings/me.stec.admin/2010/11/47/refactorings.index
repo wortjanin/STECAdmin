@@ -1,0 +1,6 @@
+1289829650765	Rename resource '100901_00-11_fn_stec_schema_num.sql'
+1289829669296	Rename resource '100901_00-02_fn_stec_schema_num.sql'
+1289870494671	Rename resource '100901_00-02_grants_and_stec_user_insert.sql'
+1289870551953	Rename resource '100901_00-12_fn_stec_user_id.sql'
+1289870584468	Rename resource '100901_00-03_grant_to_fn_stec_schema.sql'
+1290275023031	Rename resource '100901_00-05_pr_set_nextval_to_one_for_seq.sql'

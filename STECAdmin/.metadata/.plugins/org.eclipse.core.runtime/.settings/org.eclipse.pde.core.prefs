@@ -1,0 +1,22 @@
+#Wed Feb 09 14:03:44 MSK 2011
+target_platform_realization=true
+org.eclipse.pde.ui.os=win32
+additional_locations=D\:\\java\\eclipse_3_6_1\\delta\\eclipse
+program_args=
+platform_path=D\:\\java\\eclipse_3_6_1\\eclipse
+eclipse.preferences.version=1
+target_mode=useThis
+target.profile=
+checkedPlugins=[savedAll]
+checkedVersionPlugins=[savedNone]
+org.eclipse.pde.ui.arch=x86
+saved_platform3=D\:\\java\\eclipse\\
+saved_platform2=D\:\\java\\eclipse_3_6_1\\eclipse
+saved_platform1=D\:\\java\\eclipse_3_6_1\\delta\\eclipse
+saved_platform0=D\:\\java\\eclipse_3_6_1\\eclipse\\
+workspace_target_handle=local\:1287435064296.target
+org.eclipse.pde.ui.ws=win32
+pooled_urls=
+org.eclipse.pde.ui.nl=ru_RU
+external_features=org.eclipse.cvs.source@1.2.0.v20100427-7B77FKt90GE5h0SBT5FV9A01911,org.eclipse.equinox.p2.user.ui.source@2.0.1.r361_v20100903-897HFZFFZRuSD2LMtVxyz0Vr,org.eclipse.equinox.p2.user.ui@2.0.1.r361_v20100903-897HFZFFZRuSD2LMtVxyz0Vr,org.eclipse.platform.source@3.6.1.r361_v20100909-9gF78GrkFqw7GrsZnvz0JWNTeb6fue6896L,org.eclipse.platform@3.6.1.r361_v20100909-9gF78GrkFqw7GrsZnvz0JWNTeb6fue6896L,org.eclipse.cvs@1.2.0.v20100427-7B77FKt90GE5h0SBT5FV9A01911,org.eclipse.help.source@1.2.0.v20100427-7e7jEQFEp4jsWcboLU9l93,org.eclipse.rcp.source@3.6.1.r361_v20100827-9OArFLdFjY-ThSQXmKvKz0_T,org.eclipse.sdk@3.6.1.r361_v20100714-0800-7Q7m6DDaKf5o2z-L9LxPSe6ygafz-KKIqk1rr_3j4dn7J,org.eclipse.jdt.source@3.6.1.r361_v20100714-0800-7z8XFUSFLFlmgLc5z-Bvrt8-HVkH,org.eclipse.pde@3.6.1.r361_v20100727-7b7mFL-FET3dhESDgE5_bkJ,org.eclipse.rcp@3.6.1.r361_v20100827-9OArFLdFjY-ThSQXmKvKz0_T,org.eclipse.help@1.2.0.v20100427-7e7jEQFEp4jsWcboLU9l93,org.eclipse.pde.source@3.6.1.r361_v20100727-7b7mFL-FET3dhESDgE5_bkJ,org.eclipse.jdt@3.6.1.r361_v20100714-0800-7z8XFUSFLFlmgLc5z-Bvrt8-HVkH,org.eclipse.equinox.executable@3.4.1.R36x_v20100823-7M7K7JF90dnJ-WLf3cf4yi
+vm_args=-Dosgi.requiredJavaVersion\=1.5 -Xms40m -Xmx512m
